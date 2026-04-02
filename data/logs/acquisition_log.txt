@@ -1,0 +1,53 @@
+Acquisition run: 2026-04-01T22:18:27.340796
+============================================================
+      
+      SOURCE 1 — OpenDOSM (api.data.gov.my)
+      --------------------------------------------------
+[OK] PASS  hh_income_parlimen: 666 rows, cols=['date', 'state', 'parlimen', 'income_mean', 'income_median']
+            years: ['2019-01-01', '2022-01-01', '2024-01-01']
+            states (16): ['Johor', 'Kedah', 'Kelantan', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya']
+[OK] PASS  hh_poverty_parlimen: 666 rows, cols=['date', 'state', 'parlimen', 'poverty_absolute']
+            years: ['2019-01-01', '2022-01-01', '2024-01-01']
+            states (16): ['Johor', 'Kedah', 'Kelantan', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya']
+[OK] PASS  population_state: 1000 rows, cols=['age', 'sex', 'date', 'state', 'ethnicity', 'population']
+            years: ['2020-01-01']
+            states (16): ['Johor', 'Kedah', 'Kelantan', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya']
+      Metadata saved: data/raw\dosm_metadata.json
+      
+      SOURCE 2 — MoH Malaysia GitHub (github.com/MoH-Malaysia)
+      --------------------------------------------------
+[OK] PASS  moh_facilities.csv: 3304 rows, cols=['state', 'district', 'sector', 'type', 'name', 'address', 'phone', 'lat', 'lon']
+            states: ['Johor', 'Kedah', 'Kelantan', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya']
+[OK] PASS  moh_beds.csv: 149 rows, cols=['hospital', 'state', 'beds_nonicu', 'util_nonicu', 'beds_icu', 'util_icu', 'vent', 'util_vent']
+            states: ['Johor', 'Kedah', 'Kelantan', 'Melaka', 'Negeri Sembilan', 'Pahang', 'Perak', 'Perlis', 'Pulau Pinang', 'Sabah', 'Sarawak', 'Selangor', 'Terengganu', 'W.P. Kuala Lumpur', 'W.P. Labuan', 'W.P. Putrajaya']
+      
+      SOURCE 3 — World Bank API (api.worldbank.org) — national level backup
+      --------------------------------------------------
+[OK] PASS  life_expectancy: 20 year-records
+[OK] PASS  infant_mortality: 20 year-records
+[OK] PASS  health_exp_gdp: 20 year-records
+[OK] PASS  hospital_beds: 20 year-records
+      World Bank combined: 20 rows saved to data/raw\worldbank_malaysia.csv
+      
+      VALIDATION — State name consistency check
+      --------------------------------------------------
+[OK] PASS  hh_income_parlimen: all 16 states match
+[OK] PASS  hh_poverty_parlimen: all 16 states match
+[OK] PASS  moh_facilities: all 16 states match
+[OK] PASS  moh_beds: all 16 states match
+      
+      ==================================================
+      FILES IN data/raw/:
+        dosm_metadata.json                           1.7 KB
+        hh_income_parlimen.csv                      30.3 KB
+        hh_poverty_parlimen.csv                     26.4 KB
+        moh_beds.csv                                 9.0 KB
+        moh_facilities.csv                         416.5 KB
+        population_state.csv                        56.6 KB
+        worldbank_malaysia.csv                       0.7 KB
+      
+      NEXT STEPS:
+        1. Review any FAIL/WARN lines above
+        2. For FAIL items, use manual download links in comments
+        3. Run clean_data.py to standardise state names and merge
+        4. If all sources pass -> you're clear to finalise proposal

@@ -1,0 +1,1001 @@
+age,sex,date,state,ethnicity,population
+overall_age,overall_sex,2020-01-01,Johor,overall_ethnicity,4009.7
+0-4,overall_sex,2020-01-01,Johor,overall_ethnicity,306.3
+5-9,overall_sex,2020-01-01,Johor,overall_ethnicity,322.3
+10-14,overall_sex,2020-01-01,Johor,overall_ethnicity,330.7
+15-19,overall_sex,2020-01-01,Johor,overall_ethnicity,345.2
+20-24,overall_sex,2020-01-01,Johor,overall_ethnicity,388.9
+25-29,overall_sex,2020-01-01,Johor,overall_ethnicity,362.6
+30-34,overall_sex,2020-01-01,Johor,overall_ethnicity,338.1
+35-39,overall_sex,2020-01-01,Johor,overall_ethnicity,318.1
+40-44,overall_sex,2020-01-01,Johor,overall_ethnicity,260.1
+45-49,overall_sex,2020-01-01,Johor,overall_ethnicity,234.3
+50-54,overall_sex,2020-01-01,Johor,overall_ethnicity,212.1
+55-59,overall_sex,2020-01-01,Johor,overall_ethnicity,189.1
+60-64,overall_sex,2020-01-01,Johor,overall_ethnicity,157.2
+65-69,overall_sex,2020-01-01,Johor,overall_ethnicity,94.9
+70-74,overall_sex,2020-01-01,Johor,overall_ethnicity,66.0
+75-79,overall_sex,2020-01-01,Johor,overall_ethnicity,38.1
+80-84,overall_sex,2020-01-01,Johor,overall_ethnicity,24.7
+85+,overall_sex,2020-01-01,Johor,overall_ethnicity,20.9
+overall_age,male,2020-01-01,Johor,overall_ethnicity,2141.3
+0-4,male,2020-01-01,Johor,overall_ethnicity,152.0
+5-9,male,2020-01-01,Johor,overall_ethnicity,165.6
+10-14,male,2020-01-01,Johor,overall_ethnicity,171.3
+15-19,male,2020-01-01,Johor,overall_ethnicity,181.9
+20-24,male,2020-01-01,Johor,overall_ethnicity,221.9
+25-29,male,2020-01-01,Johor,overall_ethnicity,208.9
+30-34,male,2020-01-01,Johor,overall_ethnicity,190.2
+35-39,male,2020-01-01,Johor,overall_ethnicity,173.1
+40-44,male,2020-01-01,Johor,overall_ethnicity,142.1
+45-49,male,2020-01-01,Johor,overall_ethnicity,123.7
+50-54,male,2020-01-01,Johor,overall_ethnicity,109.0
+55-59,male,2020-01-01,Johor,overall_ethnicity,99.7
+60-64,male,2020-01-01,Johor,overall_ethnicity,79.2
+65-69,male,2020-01-01,Johor,overall_ethnicity,47.3
+70-74,male,2020-01-01,Johor,overall_ethnicity,32.8
+75-79,male,2020-01-01,Johor,overall_ethnicity,18.7
+80-84,male,2020-01-01,Johor,overall_ethnicity,12.2
+85+,male,2020-01-01,Johor,overall_ethnicity,11.6
+overall_age,female,2020-01-01,Johor,overall_ethnicity,1868.4
+0-4,female,2020-01-01,Johor,overall_ethnicity,154.3
+5-9,female,2020-01-01,Johor,overall_ethnicity,156.7
+10-14,female,2020-01-01,Johor,overall_ethnicity,159.4
+15-19,female,2020-01-01,Johor,overall_ethnicity,163.2
+20-24,female,2020-01-01,Johor,overall_ethnicity,167.0
+25-29,female,2020-01-01,Johor,overall_ethnicity,153.7
+30-34,female,2020-01-01,Johor,overall_ethnicity,147.9
+35-39,female,2020-01-01,Johor,overall_ethnicity,144.9
+40-44,female,2020-01-01,Johor,overall_ethnicity,118.1
+45-49,female,2020-01-01,Johor,overall_ethnicity,110.6
+50-54,female,2020-01-01,Johor,overall_ethnicity,103.1
+55-59,female,2020-01-01,Johor,overall_ethnicity,89.4
+60-64,female,2020-01-01,Johor,overall_ethnicity,78.0
+65-69,female,2020-01-01,Johor,overall_ethnicity,47.5
+70-74,female,2020-01-01,Johor,overall_ethnicity,33.1
+75-79,female,2020-01-01,Johor,overall_ethnicity,19.4
+80-84,female,2020-01-01,Johor,overall_ethnicity,12.6
+85+,female,2020-01-01,Johor,overall_ethnicity,9.3
+overall_age,overall_sex,2020-01-01,Kedah,overall_ethnicity,2131.4
+0-4,overall_sex,2020-01-01,Kedah,overall_ethnicity,181.0
+5-9,overall_sex,2020-01-01,Kedah,overall_ethnicity,183.4
+10-14,overall_sex,2020-01-01,Kedah,overall_ethnicity,174.5
+15-19,overall_sex,2020-01-01,Kedah,overall_ethnicity,187.4
+20-24,overall_sex,2020-01-01,Kedah,overall_ethnicity,219.7
+25-29,overall_sex,2020-01-01,Kedah,overall_ethnicity,196.7
+30-34,overall_sex,2020-01-01,Kedah,overall_ethnicity,154.8
+35-39,overall_sex,2020-01-01,Kedah,overall_ethnicity,132.8
+40-44,overall_sex,2020-01-01,Kedah,overall_ethnicity,117.9
+45-49,overall_sex,2020-01-01,Kedah,overall_ethnicity,113.3
+50-54,overall_sex,2020-01-01,Kedah,overall_ethnicity,109.7
+55-59,overall_sex,2020-01-01,Kedah,overall_ethnicity,103.0
+60-64,overall_sex,2020-01-01,Kedah,overall_ethnicity,88.8
+65-69,overall_sex,2020-01-01,Kedah,overall_ethnicity,66.7
+70-74,overall_sex,2020-01-01,Kedah,overall_ethnicity,45.9
+75-79,overall_sex,2020-01-01,Kedah,overall_ethnicity,25.9
+80-84,overall_sex,2020-01-01,Kedah,overall_ethnicity,17.6
+85+,overall_sex,2020-01-01,Kedah,overall_ethnicity,12.4
+overall_age,male,2020-01-01,Kedah,overall_ethnicity,1087.3
+0-4,male,2020-01-01,Kedah,overall_ethnicity,94.1
+5-9,male,2020-01-01,Kedah,overall_ethnicity,94.7
+10-14,male,2020-01-01,Kedah,overall_ethnicity,89.7
+15-19,male,2020-01-01,Kedah,overall_ethnicity,98.4
+20-24,male,2020-01-01,Kedah,overall_ethnicity,118.6
+25-29,male,2020-01-01,Kedah,overall_ethnicity,106.0
+30-34,male,2020-01-01,Kedah,overall_ethnicity,79.7
+35-39,male,2020-01-01,Kedah,overall_ethnicity,67.3
+40-44,male,2020-01-01,Kedah,overall_ethnicity,59.7
+45-49,male,2020-01-01,Kedah,overall_ethnicity,55.3
+50-54,male,2020-01-01,Kedah,overall_ethnicity,52.5
+55-59,male,2020-01-01,Kedah,overall_ethnicity,50.3
+60-64,male,2020-01-01,Kedah,overall_ethnicity,42.1
+65-69,male,2020-01-01,Kedah,overall_ethnicity,31.9
+70-74,male,2020-01-01,Kedah,overall_ethnicity,22.3
+75-79,male,2020-01-01,Kedah,overall_ethnicity,11.5
+80-84,male,2020-01-01,Kedah,overall_ethnicity,7.6
+85+,male,2020-01-01,Kedah,overall_ethnicity,5.5
+overall_age,female,2020-01-01,Kedah,overall_ethnicity,1044.1
+0-4,female,2020-01-01,Kedah,overall_ethnicity,86.8
+5-9,female,2020-01-01,Kedah,overall_ethnicity,88.6
+10-14,female,2020-01-01,Kedah,overall_ethnicity,84.8
+15-19,female,2020-01-01,Kedah,overall_ethnicity,89.0
+20-24,female,2020-01-01,Kedah,overall_ethnicity,101.2
+25-29,female,2020-01-01,Kedah,overall_ethnicity,90.7
+30-34,female,2020-01-01,Kedah,overall_ethnicity,75.1
+35-39,female,2020-01-01,Kedah,overall_ethnicity,65.5
+40-44,female,2020-01-01,Kedah,overall_ethnicity,58.2
+45-49,female,2020-01-01,Kedah,overall_ethnicity,58.0
+50-54,female,2020-01-01,Kedah,overall_ethnicity,57.1
+55-59,female,2020-01-01,Kedah,overall_ethnicity,52.8
+60-64,female,2020-01-01,Kedah,overall_ethnicity,46.7
+65-69,female,2020-01-01,Kedah,overall_ethnicity,34.9
+70-74,female,2020-01-01,Kedah,overall_ethnicity,23.6
+75-79,female,2020-01-01,Kedah,overall_ethnicity,14.4
+80-84,female,2020-01-01,Kedah,overall_ethnicity,10.0
+85+,female,2020-01-01,Kedah,overall_ethnicity,6.9
+overall_age,overall_sex,2020-01-01,Kelantan,overall_ethnicity,1792.5
+0-4,overall_sex,2020-01-01,Kelantan,overall_ethnicity,173.8
+5-9,overall_sex,2020-01-01,Kelantan,overall_ethnicity,185.5
+10-14,overall_sex,2020-01-01,Kelantan,overall_ethnicity,177.9
+15-19,overall_sex,2020-01-01,Kelantan,overall_ethnicity,207.2
+20-24,overall_sex,2020-01-01,Kelantan,overall_ethnicity,171.6
+25-29,overall_sex,2020-01-01,Kelantan,overall_ethnicity,130.1
+30-34,overall_sex,2020-01-01,Kelantan,overall_ethnicity,118.2
+35-39,overall_sex,2020-01-01,Kelantan,overall_ethnicity,107.5
+40-44,overall_sex,2020-01-01,Kelantan,overall_ethnicity,88.2
+45-49,overall_sex,2020-01-01,Kelantan,overall_ethnicity,86.6
+50-54,overall_sex,2020-01-01,Kelantan,overall_ethnicity,82.1
+55-59,overall_sex,2020-01-01,Kelantan,overall_ethnicity,83.5
+60-64,overall_sex,2020-01-01,Kelantan,overall_ethnicity,66.3
+65-69,overall_sex,2020-01-01,Kelantan,overall_ethnicity,46.8
+70-74,overall_sex,2020-01-01,Kelantan,overall_ethnicity,33.0
+75-79,overall_sex,2020-01-01,Kelantan,overall_ethnicity,18.5
+80-84,overall_sex,2020-01-01,Kelantan,overall_ethnicity,10.1
+85+,overall_sex,2020-01-01,Kelantan,overall_ethnicity,5.8
+overall_age,male,2020-01-01,Kelantan,overall_ethnicity,900.1
+0-4,male,2020-01-01,Kelantan,overall_ethnicity,88.6
+5-9,male,2020-01-01,Kelantan,overall_ethnicity,95.7
+10-14,male,2020-01-01,Kelantan,overall_ethnicity,91.8
+15-19,male,2020-01-01,Kelantan,overall_ethnicity,104.6
+20-24,male,2020-01-01,Kelantan,overall_ethnicity,84.3
+25-29,male,2020-01-01,Kelantan,overall_ethnicity,67.8
+30-34,male,2020-01-01,Kelantan,overall_ethnicity,61.6
+35-39,male,2020-01-01,Kelantan,overall_ethnicity,55.6
+40-44,male,2020-01-01,Kelantan,overall_ethnicity,44.8
+45-49,male,2020-01-01,Kelantan,overall_ethnicity,41.9
+50-54,male,2020-01-01,Kelantan,overall_ethnicity,39.0
+55-59,male,2020-01-01,Kelantan,overall_ethnicity,40.3
+60-64,male,2020-01-01,Kelantan,overall_ethnicity,31.3
+65-69,male,2020-01-01,Kelantan,overall_ethnicity,22.4
+70-74,male,2020-01-01,Kelantan,overall_ethnicity,16.0
+75-79,male,2020-01-01,Kelantan,overall_ethnicity,8.3
+80-84,male,2020-01-01,Kelantan,overall_ethnicity,3.9
+85+,male,2020-01-01,Kelantan,overall_ethnicity,2.1
+overall_age,female,2020-01-01,Kelantan,overall_ethnicity,892.4
+0-4,female,2020-01-01,Kelantan,overall_ethnicity,85.2
+5-9,female,2020-01-01,Kelantan,overall_ethnicity,89.8
+10-14,female,2020-01-01,Kelantan,overall_ethnicity,86.1
+15-19,female,2020-01-01,Kelantan,overall_ethnicity,102.6
+20-24,female,2020-01-01,Kelantan,overall_ethnicity,87.3
+25-29,female,2020-01-01,Kelantan,overall_ethnicity,62.4
+30-34,female,2020-01-01,Kelantan,overall_ethnicity,56.7
+35-39,female,2020-01-01,Kelantan,overall_ethnicity,51.8
+40-44,female,2020-01-01,Kelantan,overall_ethnicity,43.4
+45-49,female,2020-01-01,Kelantan,overall_ethnicity,44.7
+50-54,female,2020-01-01,Kelantan,overall_ethnicity,43.1
+55-59,female,2020-01-01,Kelantan,overall_ethnicity,43.2
+60-64,female,2020-01-01,Kelantan,overall_ethnicity,34.9
+65-69,female,2020-01-01,Kelantan,overall_ethnicity,24.3
+70-74,female,2020-01-01,Kelantan,overall_ethnicity,17.0
+75-79,female,2020-01-01,Kelantan,overall_ethnicity,10.2
+80-84,female,2020-01-01,Kelantan,overall_ethnicity,6.1
+85+,female,2020-01-01,Kelantan,overall_ethnicity,3.7
+overall_age,overall_sex,2020-01-01,Melaka,overall_ethnicity,998.4
+0-4,overall_sex,2020-01-01,Melaka,overall_ethnicity,83.1
+5-9,overall_sex,2020-01-01,Melaka,overall_ethnicity,82.2
+10-14,overall_sex,2020-01-01,Melaka,overall_ethnicity,68.7
+15-19,overall_sex,2020-01-01,Melaka,overall_ethnicity,102.6
+20-24,overall_sex,2020-01-01,Melaka,overall_ethnicity,91.5
+25-29,overall_sex,2020-01-01,Melaka,overall_ethnicity,84.4
+30-34,overall_sex,2020-01-01,Melaka,overall_ethnicity,101.8
+35-39,overall_sex,2020-01-01,Melaka,overall_ethnicity,74.3
+40-44,overall_sex,2020-01-01,Melaka,overall_ethnicity,83.4
+45-49,overall_sex,2020-01-01,Melaka,overall_ethnicity,46.1
+50-54,overall_sex,2020-01-01,Melaka,overall_ethnicity,40.7
+55-59,overall_sex,2020-01-01,Melaka,overall_ethnicity,42.4
+60-64,overall_sex,2020-01-01,Melaka,overall_ethnicity,34.0
+65-69,overall_sex,2020-01-01,Melaka,overall_ethnicity,27.4
+70-74,overall_sex,2020-01-01,Melaka,overall_ethnicity,17.5
+75-79,overall_sex,2020-01-01,Melaka,overall_ethnicity,9.1
+80-84,overall_sex,2020-01-01,Melaka,overall_ethnicity,5.9
+85+,overall_sex,2020-01-01,Melaka,overall_ethnicity,3.3
+overall_age,male,2020-01-01,Melaka,overall_ethnicity,524.9
+0-4,male,2020-01-01,Melaka,overall_ethnicity,42.9
+5-9,male,2020-01-01,Melaka,overall_ethnicity,42.6
+10-14,male,2020-01-01,Melaka,overall_ethnicity,35.9
+15-19,male,2020-01-01,Melaka,overall_ethnicity,54.3
+20-24,male,2020-01-01,Melaka,overall_ethnicity,49.0
+25-29,male,2020-01-01,Melaka,overall_ethnicity,44.5
+30-34,male,2020-01-01,Melaka,overall_ethnicity,61.7
+35-39,male,2020-01-01,Melaka,overall_ethnicity,40.4
+40-44,male,2020-01-01,Melaka,overall_ethnicity,43.5
+45-49,male,2020-01-01,Melaka,overall_ethnicity,22.9
+50-54,male,2020-01-01,Melaka,overall_ethnicity,20.0
+55-59,male,2020-01-01,Melaka,overall_ethnicity,21.0
+60-64,male,2020-01-01,Melaka,overall_ethnicity,16.8
+65-69,male,2020-01-01,Melaka,overall_ethnicity,12.9
+70-74,male,2020-01-01,Melaka,overall_ethnicity,8.5
+75-79,male,2020-01-01,Melaka,overall_ethnicity,4.3
+80-84,male,2020-01-01,Melaka,overall_ethnicity,2.5
+85+,male,2020-01-01,Melaka,overall_ethnicity,1.3
+overall_age,female,2020-01-01,Melaka,overall_ethnicity,473.5
+0-4,female,2020-01-01,Melaka,overall_ethnicity,40.2
+5-9,female,2020-01-01,Melaka,overall_ethnicity,39.6
+10-14,female,2020-01-01,Melaka,overall_ethnicity,32.7
+15-19,female,2020-01-01,Melaka,overall_ethnicity,48.2
+20-24,female,2020-01-01,Melaka,overall_ethnicity,42.5
+25-29,female,2020-01-01,Melaka,overall_ethnicity,39.9
+30-34,female,2020-01-01,Melaka,overall_ethnicity,40.1
+35-39,female,2020-01-01,Melaka,overall_ethnicity,34.0
+40-44,female,2020-01-01,Melaka,overall_ethnicity,39.9
+45-49,female,2020-01-01,Melaka,overall_ethnicity,23.2
+50-54,female,2020-01-01,Melaka,overall_ethnicity,20.7
+55-59,female,2020-01-01,Melaka,overall_ethnicity,21.5
+60-64,female,2020-01-01,Melaka,overall_ethnicity,17.3
+65-69,female,2020-01-01,Melaka,overall_ethnicity,14.5
+70-74,female,2020-01-01,Melaka,overall_ethnicity,9.0
+75-79,female,2020-01-01,Melaka,overall_ethnicity,4.8
+80-84,female,2020-01-01,Melaka,overall_ethnicity,3.4
+85+,female,2020-01-01,Melaka,overall_ethnicity,2.0
+overall_age,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,1200.0
+0-4,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,92.4
+5-9,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,115.8
+10-14,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,93.9
+15-19,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,99.6
+20-24,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,100.8
+25-29,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,101.3
+30-34,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,110.7
+35-39,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,102.6
+40-44,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,76.3
+45-49,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,62.8
+50-54,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,53.8
+55-59,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,63.0
+60-64,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,45.7
+65-69,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,36.8
+70-74,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,22.9
+75-79,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,11.2
+80-84,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,7.1
+85+,overall_sex,2020-01-01,Negeri Sembilan,overall_ethnicity,3.4
+overall_age,male,2020-01-01,Negeri Sembilan,overall_ethnicity,624.0
+0-4,male,2020-01-01,Negeri Sembilan,overall_ethnicity,45.5
+5-9,male,2020-01-01,Negeri Sembilan,overall_ethnicity,60.4
+10-14,male,2020-01-01,Negeri Sembilan,overall_ethnicity,49.9
+15-19,male,2020-01-01,Negeri Sembilan,overall_ethnicity,52.4
+20-24,male,2020-01-01,Negeri Sembilan,overall_ethnicity,51.9
+25-29,male,2020-01-01,Negeri Sembilan,overall_ethnicity,54.5
+30-34,male,2020-01-01,Negeri Sembilan,overall_ethnicity,61.4
+35-39,male,2020-01-01,Negeri Sembilan,overall_ethnicity,56.3
+40-44,male,2020-01-01,Negeri Sembilan,overall_ethnicity,40.1
+45-49,male,2020-01-01,Negeri Sembilan,overall_ethnicity,32.5
+50-54,male,2020-01-01,Negeri Sembilan,overall_ethnicity,25.9
+55-59,male,2020-01-01,Negeri Sembilan,overall_ethnicity,31.3
+60-64,male,2020-01-01,Negeri Sembilan,overall_ethnicity,22.1
+65-69,male,2020-01-01,Negeri Sembilan,overall_ethnicity,18.4
+70-74,male,2020-01-01,Negeri Sembilan,overall_ethnicity,11.4
+75-79,male,2020-01-01,Negeri Sembilan,overall_ethnicity,5.4
+80-84,male,2020-01-01,Negeri Sembilan,overall_ethnicity,3.2
+85+,male,2020-01-01,Negeri Sembilan,overall_ethnicity,1.3
+overall_age,female,2020-01-01,Negeri Sembilan,overall_ethnicity,576.0
+0-4,female,2020-01-01,Negeri Sembilan,overall_ethnicity,47.0
+5-9,female,2020-01-01,Negeri Sembilan,overall_ethnicity,55.4
+10-14,female,2020-01-01,Negeri Sembilan,overall_ethnicity,44.0
+15-19,female,2020-01-01,Negeri Sembilan,overall_ethnicity,47.3
+20-24,female,2020-01-01,Negeri Sembilan,overall_ethnicity,48.9
+25-29,female,2020-01-01,Negeri Sembilan,overall_ethnicity,46.8
+30-34,female,2020-01-01,Negeri Sembilan,overall_ethnicity,49.3
+35-39,female,2020-01-01,Negeri Sembilan,overall_ethnicity,46.3
+40-44,female,2020-01-01,Negeri Sembilan,overall_ethnicity,36.3
+45-49,female,2020-01-01,Negeri Sembilan,overall_ethnicity,30.3
+50-54,female,2020-01-01,Negeri Sembilan,overall_ethnicity,27.9
+55-59,female,2020-01-01,Negeri Sembilan,overall_ethnicity,31.6
+60-64,female,2020-01-01,Negeri Sembilan,overall_ethnicity,23.5
+65-69,female,2020-01-01,Negeri Sembilan,overall_ethnicity,18.3
+70-74,female,2020-01-01,Negeri Sembilan,overall_ethnicity,11.5
+75-79,female,2020-01-01,Negeri Sembilan,overall_ethnicity,5.8
+80-84,female,2020-01-01,Negeri Sembilan,overall_ethnicity,3.8
+85+,female,2020-01-01,Negeri Sembilan,overall_ethnicity,2.1
+overall_age,overall_sex,2020-01-01,Pahang,overall_ethnicity,1591.3
+0-4,overall_sex,2020-01-01,Pahang,overall_ethnicity,135.3
+5-9,overall_sex,2020-01-01,Pahang,overall_ethnicity,139.8
+10-14,overall_sex,2020-01-01,Pahang,overall_ethnicity,149.5
+15-19,overall_sex,2020-01-01,Pahang,overall_ethnicity,157.0
+20-24,overall_sex,2020-01-01,Pahang,overall_ethnicity,122.2
+25-29,overall_sex,2020-01-01,Pahang,overall_ethnicity,121.3
+30-34,overall_sex,2020-01-01,Pahang,overall_ethnicity,133.7
+35-39,overall_sex,2020-01-01,Pahang,overall_ethnicity,137.2
+40-44,overall_sex,2020-01-01,Pahang,overall_ethnicity,120.1
+45-49,overall_sex,2020-01-01,Pahang,overall_ethnicity,89.0
+50-54,overall_sex,2020-01-01,Pahang,overall_ethnicity,69.6
+55-59,overall_sex,2020-01-01,Pahang,overall_ethnicity,66.7
+60-64,overall_sex,2020-01-01,Pahang,overall_ethnicity,49.6
+65-69,overall_sex,2020-01-01,Pahang,overall_ethnicity,38.6
+70-74,overall_sex,2020-01-01,Pahang,overall_ethnicity,29.6
+75-79,overall_sex,2020-01-01,Pahang,overall_ethnicity,14.8
+80-84,overall_sex,2020-01-01,Pahang,overall_ethnicity,9.6
+85+,overall_sex,2020-01-01,Pahang,overall_ethnicity,7.7
+overall_age,male,2020-01-01,Pahang,overall_ethnicity,844.2
+0-4,male,2020-01-01,Pahang,overall_ethnicity,68.4
+5-9,male,2020-01-01,Pahang,overall_ethnicity,71.4
+10-14,male,2020-01-01,Pahang,overall_ethnicity,78.7
+15-19,male,2020-01-01,Pahang,overall_ethnicity,82.3
+20-24,male,2020-01-01,Pahang,overall_ethnicity,66.5
+25-29,male,2020-01-01,Pahang,overall_ethnicity,69.5
+30-34,male,2020-01-01,Pahang,overall_ethnicity,75.1
+35-39,male,2020-01-01,Pahang,overall_ethnicity,76.7
+40-44,male,2020-01-01,Pahang,overall_ethnicity,63.7
+45-49,male,2020-01-01,Pahang,overall_ethnicity,47.2
+50-54,male,2020-01-01,Pahang,overall_ethnicity,35.9
+55-59,male,2020-01-01,Pahang,overall_ethnicity,34.0
+60-64,male,2020-01-01,Pahang,overall_ethnicity,24.6
+65-69,male,2020-01-01,Pahang,overall_ethnicity,19.5
+70-74,male,2020-01-01,Pahang,overall_ethnicity,14.7
+75-79,male,2020-01-01,Pahang,overall_ethnicity,7.4
+80-84,male,2020-01-01,Pahang,overall_ethnicity,4.6
+85+,male,2020-01-01,Pahang,overall_ethnicity,4.0
+overall_age,female,2020-01-01,Pahang,overall_ethnicity,747.1
+0-4,female,2020-01-01,Pahang,overall_ethnicity,67.0
+5-9,female,2020-01-01,Pahang,overall_ethnicity,68.4
+10-14,female,2020-01-01,Pahang,overall_ethnicity,70.8
+15-19,female,2020-01-01,Pahang,overall_ethnicity,74.6
+20-24,female,2020-01-01,Pahang,overall_ethnicity,55.7
+25-29,female,2020-01-01,Pahang,overall_ethnicity,51.8
+30-34,female,2020-01-01,Pahang,overall_ethnicity,58.6
+35-39,female,2020-01-01,Pahang,overall_ethnicity,60.5
+40-44,female,2020-01-01,Pahang,overall_ethnicity,56.5
+45-49,female,2020-01-01,Pahang,overall_ethnicity,41.9
+50-54,female,2020-01-01,Pahang,overall_ethnicity,33.8
+55-59,female,2020-01-01,Pahang,overall_ethnicity,32.7
+60-64,female,2020-01-01,Pahang,overall_ethnicity,25.0
+65-69,female,2020-01-01,Pahang,overall_ethnicity,19.2
+70-74,female,2020-01-01,Pahang,overall_ethnicity,14.8
+75-79,female,2020-01-01,Pahang,overall_ethnicity,7.4
+80-84,female,2020-01-01,Pahang,overall_ethnicity,5.0
+85+,female,2020-01-01,Pahang,overall_ethnicity,3.7
+overall_age,overall_sex,2020-01-01,Perak,overall_ethnicity,2496.0
+0-4,overall_sex,2020-01-01,Perak,overall_ethnicity,170.2
+5-9,overall_sex,2020-01-01,Perak,overall_ethnicity,210.3
+10-14,overall_sex,2020-01-01,Perak,overall_ethnicity,198.2
+15-19,overall_sex,2020-01-01,Perak,overall_ethnicity,222.5
+20-24,overall_sex,2020-01-01,Perak,overall_ethnicity,220.0
+25-29,overall_sex,2020-01-01,Perak,overall_ethnicity,187.4
+30-34,overall_sex,2020-01-01,Perak,overall_ethnicity,189.9
+35-39,overall_sex,2020-01-01,Perak,overall_ethnicity,192.3
+40-44,overall_sex,2020-01-01,Perak,overall_ethnicity,168.2
+45-49,overall_sex,2020-01-01,Perak,overall_ethnicity,135.4
+50-54,overall_sex,2020-01-01,Perak,overall_ethnicity,128.7
+55-59,overall_sex,2020-01-01,Perak,overall_ethnicity,138.1
+60-64,overall_sex,2020-01-01,Perak,overall_ethnicity,111.7
+65-69,overall_sex,2020-01-01,Perak,overall_ethnicity,90.4
+70-74,overall_sex,2020-01-01,Perak,overall_ethnicity,63.7
+75-79,overall_sex,2020-01-01,Perak,overall_ethnicity,34.3
+80-84,overall_sex,2020-01-01,Perak,overall_ethnicity,22.3
+85+,overall_sex,2020-01-01,Perak,overall_ethnicity,12.6
+overall_age,male,2020-01-01,Perak,overall_ethnicity,1300.2
+0-4,male,2020-01-01,Perak,overall_ethnicity,87.6
+5-9,male,2020-01-01,Perak,overall_ethnicity,109.5
+10-14,male,2020-01-01,Perak,overall_ethnicity,104.0
+15-19,male,2020-01-01,Perak,overall_ethnicity,115.9
+20-24,male,2020-01-01,Perak,overall_ethnicity,118.4
+25-29,male,2020-01-01,Perak,overall_ethnicity,107.5
+30-34,male,2020-01-01,Perak,overall_ethnicity,106.6
+35-39,male,2020-01-01,Perak,overall_ethnicity,106.0
+40-44,male,2020-01-01,Perak,overall_ethnicity,90.4
+45-49,male,2020-01-01,Perak,overall_ethnicity,67.4
+50-54,male,2020-01-01,Perak,overall_ethnicity,62.6
+55-59,male,2020-01-01,Perak,overall_ethnicity,67.4
+60-64,male,2020-01-01,Perak,overall_ethnicity,53.8
+65-69,male,2020-01-01,Perak,overall_ethnicity,43.1
+70-74,male,2020-01-01,Perak,overall_ethnicity,30.1
+75-79,male,2020-01-01,Perak,overall_ethnicity,15.7
+80-84,male,2020-01-01,Perak,overall_ethnicity,9.5
+85+,male,2020-01-01,Perak,overall_ethnicity,4.6
+overall_age,female,2020-01-01,Perak,overall_ethnicity,1195.8
+0-4,female,2020-01-01,Perak,overall_ethnicity,82.6
+5-9,female,2020-01-01,Perak,overall_ethnicity,100.8
+10-14,female,2020-01-01,Perak,overall_ethnicity,94.2
+15-19,female,2020-01-01,Perak,overall_ethnicity,106.6
+20-24,female,2020-01-01,Perak,overall_ethnicity,101.6
+25-29,female,2020-01-01,Perak,overall_ethnicity,79.9
+30-34,female,2020-01-01,Perak,overall_ethnicity,83.3
+35-39,female,2020-01-01,Perak,overall_ethnicity,86.3
+40-44,female,2020-01-01,Perak,overall_ethnicity,77.8
+45-49,female,2020-01-01,Perak,overall_ethnicity,67.9
+50-54,female,2020-01-01,Perak,overall_ethnicity,66.0
+55-59,female,2020-01-01,Perak,overall_ethnicity,70.7
+60-64,female,2020-01-01,Perak,overall_ethnicity,57.9
+65-69,female,2020-01-01,Perak,overall_ethnicity,47.2
+70-74,female,2020-01-01,Perak,overall_ethnicity,33.6
+75-79,female,2020-01-01,Perak,overall_ethnicity,18.5
+80-84,female,2020-01-01,Perak,overall_ethnicity,12.8
+85+,female,2020-01-01,Perak,overall_ethnicity,8.0
+overall_age,overall_sex,2020-01-01,Perlis,overall_ethnicity,284.9
+0-4,overall_sex,2020-01-01,Perlis,overall_ethnicity,19.1
+5-9,overall_sex,2020-01-01,Perlis,overall_ethnicity,19.4
+10-14,overall_sex,2020-01-01,Perlis,overall_ethnicity,19.7
+15-19,overall_sex,2020-01-01,Perlis,overall_ethnicity,37.1
+20-24,overall_sex,2020-01-01,Perlis,overall_ethnicity,32.3
+25-29,overall_sex,2020-01-01,Perlis,overall_ethnicity,20.9
+30-34,overall_sex,2020-01-01,Perlis,overall_ethnicity,19.6
+35-39,overall_sex,2020-01-01,Perlis,overall_ethnicity,19.3
+40-44,overall_sex,2020-01-01,Perlis,overall_ethnicity,25.9
+45-49,overall_sex,2020-01-01,Perlis,overall_ethnicity,13.1
+50-54,overall_sex,2020-01-01,Perlis,overall_ethnicity,12.5
+55-59,overall_sex,2020-01-01,Perlis,overall_ethnicity,13.0
+60-64,overall_sex,2020-01-01,Perlis,overall_ethnicity,10.5
+65-69,overall_sex,2020-01-01,Perlis,overall_ethnicity,9.3
+70-74,overall_sex,2020-01-01,Perlis,overall_ethnicity,6.0
+75-79,overall_sex,2020-01-01,Perlis,overall_ethnicity,3.5
+80-84,overall_sex,2020-01-01,Perlis,overall_ethnicity,2.2
+85+,overall_sex,2020-01-01,Perlis,overall_ethnicity,1.4
+overall_age,male,2020-01-01,Perlis,overall_ethnicity,142.3
+0-4,male,2020-01-01,Perlis,overall_ethnicity,9.9
+5-9,male,2020-01-01,Perlis,overall_ethnicity,10.1
+10-14,male,2020-01-01,Perlis,overall_ethnicity,10.3
+15-19,male,2020-01-01,Perlis,overall_ethnicity,19.4
+20-24,male,2020-01-01,Perlis,overall_ethnicity,16.0
+25-29,male,2020-01-01,Perlis,overall_ethnicity,11.1
+30-34,male,2020-01-01,Perlis,overall_ethnicity,10.1
+35-39,male,2020-01-01,Perlis,overall_ethnicity,9.9
+40-44,male,2020-01-01,Perlis,overall_ethnicity,12.7
+45-49,male,2020-01-01,Perlis,overall_ethnicity,5.7
+50-54,male,2020-01-01,Perlis,overall_ethnicity,6.0
+55-59,male,2020-01-01,Perlis,overall_ethnicity,6.3
+60-64,male,2020-01-01,Perlis,overall_ethnicity,5.0
+65-69,male,2020-01-01,Perlis,overall_ethnicity,4.1
+70-74,male,2020-01-01,Perlis,overall_ethnicity,2.9
+75-79,male,2020-01-01,Perlis,overall_ethnicity,1.6
+80-84,male,2020-01-01,Perlis,overall_ethnicity,0.9
+85+,male,2020-01-01,Perlis,overall_ethnicity,0.5
+overall_age,female,2020-01-01,Perlis,overall_ethnicity,142.5
+0-4,female,2020-01-01,Perlis,overall_ethnicity,9.3
+5-9,female,2020-01-01,Perlis,overall_ethnicity,9.3
+10-14,female,2020-01-01,Perlis,overall_ethnicity,9.4
+15-19,female,2020-01-01,Perlis,overall_ethnicity,17.7
+20-24,female,2020-01-01,Perlis,overall_ethnicity,16.3
+25-29,female,2020-01-01,Perlis,overall_ethnicity,9.8
+30-34,female,2020-01-01,Perlis,overall_ethnicity,9.5
+35-39,female,2020-01-01,Perlis,overall_ethnicity,9.5
+40-44,female,2020-01-01,Perlis,overall_ethnicity,13.2
+45-49,female,2020-01-01,Perlis,overall_ethnicity,7.4
+50-54,female,2020-01-01,Perlis,overall_ethnicity,6.5
+55-59,female,2020-01-01,Perlis,overall_ethnicity,6.7
+60-64,female,2020-01-01,Perlis,overall_ethnicity,5.5
+65-69,female,2020-01-01,Perlis,overall_ethnicity,5.2
+70-74,female,2020-01-01,Perlis,overall_ethnicity,3.2
+75-79,female,2020-01-01,Perlis,overall_ethnicity,1.9
+80-84,female,2020-01-01,Perlis,overall_ethnicity,1.3
+85+,female,2020-01-01,Perlis,overall_ethnicity,0.9
+overall_age,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,1740.4
+0-4,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,117.6
+5-9,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,117.0
+10-14,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,115.2
+15-19,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,127.7
+20-24,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,162.3
+25-29,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,175.0
+30-34,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,153.7
+35-39,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,147.6
+40-44,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,119.8
+45-49,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,113.3
+50-54,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,105.0
+55-59,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,91.4
+60-64,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,79.8
+65-69,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,52.3
+70-74,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,32.0
+75-79,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,16.5
+80-84,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,9.2
+85+,overall_sex,2020-01-01,Pulau Pinang,overall_ethnicity,5.1
+overall_age,male,2020-01-01,Pulau Pinang,overall_ethnicity,892.6
+0-4,male,2020-01-01,Pulau Pinang,overall_ethnicity,61.6
+5-9,male,2020-01-01,Pulau Pinang,overall_ethnicity,62.4
+10-14,male,2020-01-01,Pulau Pinang,overall_ethnicity,61.4
+15-19,male,2020-01-01,Pulau Pinang,overall_ethnicity,65.3
+20-24,male,2020-01-01,Pulau Pinang,overall_ethnicity,84.4
+25-29,male,2020-01-01,Pulau Pinang,overall_ethnicity,92.3
+30-34,male,2020-01-01,Pulau Pinang,overall_ethnicity,76.9
+35-39,male,2020-01-01,Pulau Pinang,overall_ethnicity,75.9
+40-44,male,2020-01-01,Pulau Pinang,overall_ethnicity,62.2
+45-49,male,2020-01-01,Pulau Pinang,overall_ethnicity,57.7
+50-54,male,2020-01-01,Pulau Pinang,overall_ethnicity,52.6
+55-59,male,2020-01-01,Pulau Pinang,overall_ethnicity,46.0
+60-64,male,2020-01-01,Pulau Pinang,overall_ethnicity,39.7
+65-69,male,2020-01-01,Pulau Pinang,overall_ethnicity,25.4
+70-74,male,2020-01-01,Pulau Pinang,overall_ethnicity,15.5
+75-79,male,2020-01-01,Pulau Pinang,overall_ethnicity,7.7
+80-84,male,2020-01-01,Pulau Pinang,overall_ethnicity,3.9
+85+,male,2020-01-01,Pulau Pinang,overall_ethnicity,1.7
+overall_age,female,2020-01-01,Pulau Pinang,overall_ethnicity,847.9
+0-4,female,2020-01-01,Pulau Pinang,overall_ethnicity,56.0
+5-9,female,2020-01-01,Pulau Pinang,overall_ethnicity,54.6
+10-14,female,2020-01-01,Pulau Pinang,overall_ethnicity,53.8
+15-19,female,2020-01-01,Pulau Pinang,overall_ethnicity,62.4
+20-24,female,2020-01-01,Pulau Pinang,overall_ethnicity,78.0
+25-29,female,2020-01-01,Pulau Pinang,overall_ethnicity,82.7
+30-34,female,2020-01-01,Pulau Pinang,overall_ethnicity,76.8
+35-39,female,2020-01-01,Pulau Pinang,overall_ethnicity,71.7
+40-44,female,2020-01-01,Pulau Pinang,overall_ethnicity,57.6
+45-49,female,2020-01-01,Pulau Pinang,overall_ethnicity,55.6
+50-54,female,2020-01-01,Pulau Pinang,overall_ethnicity,52.4
+55-59,female,2020-01-01,Pulau Pinang,overall_ethnicity,45.4
+60-64,female,2020-01-01,Pulau Pinang,overall_ethnicity,40.1
+65-69,female,2020-01-01,Pulau Pinang,overall_ethnicity,26.9
+70-74,female,2020-01-01,Pulau Pinang,overall_ethnicity,16.5
+75-79,female,2020-01-01,Pulau Pinang,overall_ethnicity,8.8
+80-84,female,2020-01-01,Pulau Pinang,overall_ethnicity,5.3
+85+,female,2020-01-01,Pulau Pinang,overall_ethnicity,3.3
+overall_age,overall_sex,2020-01-01,Sabah,overall_ethnicity,3418.8
+0-4,overall_sex,2020-01-01,Sabah,overall_ethnicity,291.2
+5-9,overall_sex,2020-01-01,Sabah,overall_ethnicity,280.8
+10-14,overall_sex,2020-01-01,Sabah,overall_ethnicity,335.1
+15-19,overall_sex,2020-01-01,Sabah,overall_ethnicity,351.4
+20-24,overall_sex,2020-01-01,Sabah,overall_ethnicity,349.5
+25-29,overall_sex,2020-01-01,Sabah,overall_ethnicity,374.3
+30-34,overall_sex,2020-01-01,Sabah,overall_ethnicity,302.5
+35-39,overall_sex,2020-01-01,Sabah,overall_ethnicity,276.2
+40-44,overall_sex,2020-01-01,Sabah,overall_ethnicity,191.8
+45-49,overall_sex,2020-01-01,Sabah,overall_ethnicity,155.3
+50-54,overall_sex,2020-01-01,Sabah,overall_ethnicity,128.8
+55-59,overall_sex,2020-01-01,Sabah,overall_ethnicity,105.2
+60-64,overall_sex,2020-01-01,Sabah,overall_ethnicity,84.7
+65-69,overall_sex,2020-01-01,Sabah,overall_ethnicity,87.6
+70-74,overall_sex,2020-01-01,Sabah,overall_ethnicity,46.6
+75-79,overall_sex,2020-01-01,Sabah,overall_ethnicity,28.4
+80-84,overall_sex,2020-01-01,Sabah,overall_ethnicity,15.0
+85+,overall_sex,2020-01-01,Sabah,overall_ethnicity,14.4
+overall_age,male,2020-01-01,Sabah,overall_ethnicity,1779.8
+0-4,male,2020-01-01,Sabah,overall_ethnicity,151.6
+5-9,male,2020-01-01,Sabah,overall_ethnicity,144.2
+10-14,male,2020-01-01,Sabah,overall_ethnicity,171.3
+15-19,male,2020-01-01,Sabah,overall_ethnicity,189.1
+20-24,male,2020-01-01,Sabah,overall_ethnicity,181.7
+25-29,male,2020-01-01,Sabah,overall_ethnicity,194.4
+30-34,male,2020-01-01,Sabah,overall_ethnicity,156.5
+35-39,male,2020-01-01,Sabah,overall_ethnicity,144.6
+40-44,male,2020-01-01,Sabah,overall_ethnicity,99.8
+45-49,male,2020-01-01,Sabah,overall_ethnicity,80.8
+50-54,male,2020-01-01,Sabah,overall_ethnicity,67.8
+55-59,male,2020-01-01,Sabah,overall_ethnicity,54.7
+60-64,male,2020-01-01,Sabah,overall_ethnicity,45.8
+65-69,male,2020-01-01,Sabah,overall_ethnicity,45.0
+70-74,male,2020-01-01,Sabah,overall_ethnicity,23.6
+75-79,male,2020-01-01,Sabah,overall_ethnicity,14.3
+80-84,male,2020-01-01,Sabah,overall_ethnicity,7.1
+85+,male,2020-01-01,Sabah,overall_ethnicity,7.5
+overall_age,female,2020-01-01,Sabah,overall_ethnicity,1639.0
+0-4,female,2020-01-01,Sabah,overall_ethnicity,139.6
+5-9,female,2020-01-01,Sabah,overall_ethnicity,136.6
+10-14,female,2020-01-01,Sabah,overall_ethnicity,163.8
+15-19,female,2020-01-01,Sabah,overall_ethnicity,162.3
+20-24,female,2020-01-01,Sabah,overall_ethnicity,167.8
+25-29,female,2020-01-01,Sabah,overall_ethnicity,179.9
+30-34,female,2020-01-01,Sabah,overall_ethnicity,146.0
+35-39,female,2020-01-01,Sabah,overall_ethnicity,131.6
+40-44,female,2020-01-01,Sabah,overall_ethnicity,92.0
+45-49,female,2020-01-01,Sabah,overall_ethnicity,74.5
+50-54,female,2020-01-01,Sabah,overall_ethnicity,61.0
+55-59,female,2020-01-01,Sabah,overall_ethnicity,50.5
+60-64,female,2020-01-01,Sabah,overall_ethnicity,38.8
+65-69,female,2020-01-01,Sabah,overall_ethnicity,42.6
+70-74,female,2020-01-01,Sabah,overall_ethnicity,23.0
+75-79,female,2020-01-01,Sabah,overall_ethnicity,14.1
+80-84,female,2020-01-01,Sabah,overall_ethnicity,7.9
+85+,female,2020-01-01,Sabah,overall_ethnicity,6.9
+overall_age,overall_sex,2020-01-01,Sarawak,overall_ethnicity,2453.7
+0-4,overall_sex,2020-01-01,Sarawak,overall_ethnicity,155.8
+5-9,overall_sex,2020-01-01,Sarawak,overall_ethnicity,182.7
+10-14,overall_sex,2020-01-01,Sarawak,overall_ethnicity,201.8
+15-19,overall_sex,2020-01-01,Sarawak,overall_ethnicity,213.1
+20-24,overall_sex,2020-01-01,Sarawak,overall_ethnicity,210.8
+25-29,overall_sex,2020-01-01,Sarawak,overall_ethnicity,222.6
+30-34,overall_sex,2020-01-01,Sarawak,overall_ethnicity,211.0
+35-39,overall_sex,2020-01-01,Sarawak,overall_ethnicity,188.0
+40-44,overall_sex,2020-01-01,Sarawak,overall_ethnicity,164.3
+45-49,overall_sex,2020-01-01,Sarawak,overall_ethnicity,153.5
+50-54,overall_sex,2020-01-01,Sarawak,overall_ethnicity,138.7
+55-59,overall_sex,2020-01-01,Sarawak,overall_ethnicity,128.6
+60-64,overall_sex,2020-01-01,Sarawak,overall_ethnicity,98.0
+65-69,overall_sex,2020-01-01,Sarawak,overall_ethnicity,76.4
+70-74,overall_sex,2020-01-01,Sarawak,overall_ethnicity,50.0
+75-79,overall_sex,2020-01-01,Sarawak,overall_ethnicity,30.3
+80-84,overall_sex,2020-01-01,Sarawak,overall_ethnicity,16.7
+85+,overall_sex,2020-01-01,Sarawak,overall_ethnicity,11.4
+overall_age,male,2020-01-01,Sarawak,overall_ethnicity,1269.6
+0-4,male,2020-01-01,Sarawak,overall_ethnicity,80.0
+5-9,male,2020-01-01,Sarawak,overall_ethnicity,94.6
+10-14,male,2020-01-01,Sarawak,overall_ethnicity,105.6
+15-19,male,2020-01-01,Sarawak,overall_ethnicity,110.1
+20-24,male,2020-01-01,Sarawak,overall_ethnicity,110.1
+25-29,male,2020-01-01,Sarawak,overall_ethnicity,118.5
+30-34,male,2020-01-01,Sarawak,overall_ethnicity,112.9
+35-39,male,2020-01-01,Sarawak,overall_ethnicity,99.5
+40-44,male,2020-01-01,Sarawak,overall_ethnicity,84.8
+45-49,male,2020-01-01,Sarawak,overall_ethnicity,78.7
+50-54,male,2020-01-01,Sarawak,overall_ethnicity,70.2
+55-59,male,2020-01-01,Sarawak,overall_ethnicity,65.8
+60-64,male,2020-01-01,Sarawak,overall_ethnicity,49.0
+65-69,male,2020-01-01,Sarawak,overall_ethnicity,38.6
+70-74,male,2020-01-01,Sarawak,overall_ethnicity,24.5
+75-79,male,2020-01-01,Sarawak,overall_ethnicity,14.7
+80-84,male,2020-01-01,Sarawak,overall_ethnicity,7.4
+85+,male,2020-01-01,Sarawak,overall_ethnicity,4.6
+overall_age,female,2020-01-01,Sarawak,overall_ethnicity,1184.1
+0-4,female,2020-01-01,Sarawak,overall_ethnicity,75.8
+5-9,female,2020-01-01,Sarawak,overall_ethnicity,88.1
+10-14,female,2020-01-01,Sarawak,overall_ethnicity,96.2
+15-19,female,2020-01-01,Sarawak,overall_ethnicity,103.0
+20-24,female,2020-01-01,Sarawak,overall_ethnicity,100.8
+25-29,female,2020-01-01,Sarawak,overall_ethnicity,104.2
+30-34,female,2020-01-01,Sarawak,overall_ethnicity,98.1
+35-39,female,2020-01-01,Sarawak,overall_ethnicity,88.5
+40-44,female,2020-01-01,Sarawak,overall_ethnicity,79.5
+45-49,female,2020-01-01,Sarawak,overall_ethnicity,74.8
+50-54,female,2020-01-01,Sarawak,overall_ethnicity,68.5
+55-59,female,2020-01-01,Sarawak,overall_ethnicity,62.8
+60-64,female,2020-01-01,Sarawak,overall_ethnicity,49.0
+65-69,female,2020-01-01,Sarawak,overall_ethnicity,37.8
+70-74,female,2020-01-01,Sarawak,overall_ethnicity,25.5
+75-79,female,2020-01-01,Sarawak,overall_ethnicity,15.6
+80-84,female,2020-01-01,Sarawak,overall_ethnicity,9.2
+85+,female,2020-01-01,Sarawak,overall_ethnicity,6.8
+overall_age,overall_sex,2020-01-01,Selangor,overall_ethnicity,6994.4
+0-4,overall_sex,2020-01-01,Selangor,overall_ethnicity,532.4
+5-9,overall_sex,2020-01-01,Selangor,overall_ethnicity,541.1
+10-14,overall_sex,2020-01-01,Selangor,overall_ethnicity,476.1
+15-19,overall_sex,2020-01-01,Selangor,overall_ethnicity,526.7
+20-24,overall_sex,2020-01-01,Selangor,overall_ethnicity,561.1
+25-29,overall_sex,2020-01-01,Selangor,overall_ethnicity,624.1
+30-34,overall_sex,2020-01-01,Selangor,overall_ethnicity,738.7
+35-39,overall_sex,2020-01-01,Selangor,overall_ethnicity,681.7
+40-44,overall_sex,2020-01-01,Selangor,overall_ethnicity,509.0
+45-49,overall_sex,2020-01-01,Selangor,overall_ethnicity,429.3
+50-54,overall_sex,2020-01-01,Selangor,overall_ethnicity,358.7
+55-59,overall_sex,2020-01-01,Selangor,overall_ethnicity,301.1
+60-64,overall_sex,2020-01-01,Selangor,overall_ethnicity,231.8
+65-69,overall_sex,2020-01-01,Selangor,overall_ethnicity,208.1
+70-74,overall_sex,2020-01-01,Selangor,overall_ethnicity,142.2
+75-79,overall_sex,2020-01-01,Selangor,overall_ethnicity,66.3
+80-84,overall_sex,2020-01-01,Selangor,overall_ethnicity,36.5
+85+,overall_sex,2020-01-01,Selangor,overall_ethnicity,29.5
+overall_age,male,2020-01-01,Selangor,overall_ethnicity,3710.8
+0-4,male,2020-01-01,Selangor,overall_ethnicity,271.5
+5-9,male,2020-01-01,Selangor,overall_ethnicity,280.8
+10-14,male,2020-01-01,Selangor,overall_ethnicity,241.9
+15-19,male,2020-01-01,Selangor,overall_ethnicity,278.0
+20-24,male,2020-01-01,Selangor,overall_ethnicity,318.8
+25-29,male,2020-01-01,Selangor,overall_ethnicity,351.8
+30-34,male,2020-01-01,Selangor,overall_ethnicity,391.9
+35-39,male,2020-01-01,Selangor,overall_ethnicity,359.5
+40-44,male,2020-01-01,Selangor,overall_ethnicity,276.5
+45-49,male,2020-01-01,Selangor,overall_ethnicity,229.0
+50-54,male,2020-01-01,Selangor,overall_ethnicity,189.0
+55-59,male,2020-01-01,Selangor,overall_ethnicity,159.3
+60-64,male,2020-01-01,Selangor,overall_ethnicity,121.3
+65-69,male,2020-01-01,Selangor,overall_ethnicity,107.7
+70-74,male,2020-01-01,Selangor,overall_ethnicity,67.5
+75-79,male,2020-01-01,Selangor,overall_ethnicity,32.0
+80-84,male,2020-01-01,Selangor,overall_ethnicity,17.6
+85+,male,2020-01-01,Selangor,overall_ethnicity,16.6
+overall_age,female,2020-01-01,Selangor,overall_ethnicity,3283.7
+0-4,female,2020-01-01,Selangor,overall_ethnicity,260.9
+5-9,female,2020-01-01,Selangor,overall_ethnicity,260.3
+10-14,female,2020-01-01,Selangor,overall_ethnicity,234.2
+15-19,female,2020-01-01,Selangor,overall_ethnicity,248.6
+20-24,female,2020-01-01,Selangor,overall_ethnicity,242.2
+25-29,female,2020-01-01,Selangor,overall_ethnicity,272.3
+30-34,female,2020-01-01,Selangor,overall_ethnicity,346.8
+35-39,female,2020-01-01,Selangor,overall_ethnicity,322.2
+40-44,female,2020-01-01,Selangor,overall_ethnicity,232.5
+45-49,female,2020-01-01,Selangor,overall_ethnicity,200.4
+50-54,female,2020-01-01,Selangor,overall_ethnicity,169.7
+55-59,female,2020-01-01,Selangor,overall_ethnicity,141.8
+60-64,female,2020-01-01,Selangor,overall_ethnicity,110.5
+65-69,female,2020-01-01,Selangor,overall_ethnicity,100.4
+70-74,female,2020-01-01,Selangor,overall_ethnicity,74.7
+75-79,female,2020-01-01,Selangor,overall_ethnicity,34.3
+80-84,female,2020-01-01,Selangor,overall_ethnicity,18.9
+85+,female,2020-01-01,Selangor,overall_ethnicity,12.9
+overall_age,overall_sex,2020-01-01,Terengganu,overall_ethnicity,1149.4
+0-4,overall_sex,2020-01-01,Terengganu,overall_ethnicity,109.4
+5-9,overall_sex,2020-01-01,Terengganu,overall_ethnicity,109.6
+10-14,overall_sex,2020-01-01,Terengganu,overall_ethnicity,110.1
+15-19,overall_sex,2020-01-01,Terengganu,overall_ethnicity,112.8
+20-24,overall_sex,2020-01-01,Terengganu,overall_ethnicity,107.7
+25-29,overall_sex,2020-01-01,Terengganu,overall_ethnicity,92.1
+30-34,overall_sex,2020-01-01,Terengganu,overall_ethnicity,90.1
+35-39,overall_sex,2020-01-01,Terengganu,overall_ethnicity,86.5
+40-44,overall_sex,2020-01-01,Terengganu,overall_ethnicity,67.1
+45-49,overall_sex,2020-01-01,Terengganu,overall_ethnicity,58.9
+50-54,overall_sex,2020-01-01,Terengganu,overall_ethnicity,52.3
+55-59,overall_sex,2020-01-01,Terengganu,overall_ethnicity,50.5
+60-64,overall_sex,2020-01-01,Terengganu,overall_ethnicity,39.1
+65-69,overall_sex,2020-01-01,Terengganu,overall_ethnicity,27.4
+70-74,overall_sex,2020-01-01,Terengganu,overall_ethnicity,17.0
+75-79,overall_sex,2020-01-01,Terengganu,overall_ethnicity,10.3
+80-84,overall_sex,2020-01-01,Terengganu,overall_ethnicity,6.0
+85+,overall_sex,2020-01-01,Terengganu,overall_ethnicity,2.6
+overall_age,male,2020-01-01,Terengganu,overall_ethnicity,587.9
+0-4,male,2020-01-01,Terengganu,overall_ethnicity,55.3
+5-9,male,2020-01-01,Terengganu,overall_ethnicity,56.3
+10-14,male,2020-01-01,Terengganu,overall_ethnicity,56.9
+15-19,male,2020-01-01,Terengganu,overall_ethnicity,58.4
+20-24,male,2020-01-01,Terengganu,overall_ethnicity,55.1
+25-29,male,2020-01-01,Terengganu,overall_ethnicity,49.2
+30-34,male,2020-01-01,Terengganu,overall_ethnicity,47.8
+35-39,male,2020-01-01,Terengganu,overall_ethnicity,46.0
+40-44,male,2020-01-01,Terengganu,overall_ethnicity,35.1
+45-49,male,2020-01-01,Terengganu,overall_ethnicity,29.5
+50-54,male,2020-01-01,Terengganu,overall_ethnicity,25.3
+55-59,male,2020-01-01,Terengganu,overall_ethnicity,24.6
+60-64,male,2020-01-01,Terengganu,overall_ethnicity,18.9
+65-69,male,2020-01-01,Terengganu,overall_ethnicity,13.4
+70-74,male,2020-01-01,Terengganu,overall_ethnicity,8.4
+75-79,male,2020-01-01,Terengganu,overall_ethnicity,4.5
+80-84,male,2020-01-01,Terengganu,overall_ethnicity,2.3
+85+,male,2020-01-01,Terengganu,overall_ethnicity,0.9
+overall_age,female,2020-01-01,Terengganu,overall_ethnicity,561.6
+0-4,female,2020-01-01,Terengganu,overall_ethnicity,54.1
+5-9,female,2020-01-01,Terengganu,overall_ethnicity,53.3
+10-14,female,2020-01-01,Terengganu,overall_ethnicity,53.2
+15-19,female,2020-01-01,Terengganu,overall_ethnicity,54.4
+20-24,female,2020-01-01,Terengganu,overall_ethnicity,52.6
+25-29,female,2020-01-01,Terengganu,overall_ethnicity,42.9
+30-34,female,2020-01-01,Terengganu,overall_ethnicity,42.3
+35-39,female,2020-01-01,Terengganu,overall_ethnicity,40.5
+40-44,female,2020-01-01,Terengganu,overall_ethnicity,32.0
+45-49,female,2020-01-01,Terengganu,overall_ethnicity,29.4
+50-54,female,2020-01-01,Terengganu,overall_ethnicity,27.1
+55-59,female,2020-01-01,Terengganu,overall_ethnicity,25.8
+60-64,female,2020-01-01,Terengganu,overall_ethnicity,20.2
+65-69,female,2020-01-01,Terengganu,overall_ethnicity,14.0
+70-74,female,2020-01-01,Terengganu,overall_ethnicity,8.6
+75-79,female,2020-01-01,Terengganu,overall_ethnicity,5.7
+80-84,female,2020-01-01,Terengganu,overall_ethnicity,3.6
+85+,female,2020-01-01,Terengganu,overall_ethnicity,1.7
+overall_age,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,1982.1
+0-4,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,129.1
+5-9,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,125.9
+10-14,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,140.8
+15-19,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,134.8
+20-24,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,116.2
+25-29,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,183.7
+30-34,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,224.3
+35-39,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,250.9
+40-44,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,187.7
+45-49,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,143.5
+50-54,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,85.9
+55-59,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,78.0
+60-64,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,50.9
+65-69,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,52.2
+70-74,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,37.5
+75-79,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,21.6
+80-84,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,11.5
+85+,overall_sex,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,7.5
+overall_age,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,1058.9
+0-4,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,65.5
+5-9,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,66.5
+10-14,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,72.9
+15-19,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,71.4
+20-24,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,61.9
+25-29,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,98.6
+30-34,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,123.3
+35-39,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,140.0
+40-44,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,103.9
+45-49,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,81.1
+50-54,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,44.5
+55-59,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,39.3
+60-64,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,25.0
+65-69,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,25.9
+70-74,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,18.7
+75-79,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,10.1
+80-84,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,6.1
+85+,male,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,4.1
+overall_age,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,923.2
+0-4,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,63.6
+5-9,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,59.4
+10-14,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,67.9
+15-19,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,63.4
+20-24,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,54.2
+25-29,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,85.1
+30-34,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,101.1
+35-39,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,110.9
+40-44,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,83.8
+45-49,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,62.4
+50-54,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,41.4
+55-59,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,38.6
+60-64,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,25.9
+65-69,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,26.3
+70-74,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,18.9
+75-79,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,11.5
+80-84,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,5.4
+85+,female,2020-01-01,W.P. Kuala Lumpur,overall_ethnicity,3.4
+overall_age,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,95.1
+0-4,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,10.0
+5-9,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,8.2
+10-14,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,7.8
+15-19,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,8.7
+20-24,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,8.1
+25-29,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,8.7
+30-34,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,8.6
+35-39,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,10.0
+40-44,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,5.4
+45-49,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,4.7
+50-54,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,4.3
+55-59,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,3.8
+60-64,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,2.7
+65-69,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,1.7
+70-74,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,1.0
+75-79,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,0.5
+80-84,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,0.4
+85+,overall_sex,2020-01-01,W.P. Labuan,overall_ethnicity,0.4
+overall_age,male,2020-01-01,W.P. Labuan,overall_ethnicity,48.9
+0-4,male,2020-01-01,W.P. Labuan,overall_ethnicity,5.4
+5-9,male,2020-01-01,W.P. Labuan,overall_ethnicity,4.4
+10-14,male,2020-01-01,W.P. Labuan,overall_ethnicity,4.2
+15-19,male,2020-01-01,W.P. Labuan,overall_ethnicity,4.1
+20-24,male,2020-01-01,W.P. Labuan,overall_ethnicity,3.8
+25-29,male,2020-01-01,W.P. Labuan,overall_ethnicity,4.3
+30-34,male,2020-01-01,W.P. Labuan,overall_ethnicity,4.3
+35-39,male,2020-01-01,W.P. Labuan,overall_ethnicity,5.6
+40-44,male,2020-01-01,W.P. Labuan,overall_ethnicity,3.0
+45-49,male,2020-01-01,W.P. Labuan,overall_ethnicity,2.2
+50-54,male,2020-01-01,W.P. Labuan,overall_ethnicity,2.1
+55-59,male,2020-01-01,W.P. Labuan,overall_ethnicity,2.1
+60-64,male,2020-01-01,W.P. Labuan,overall_ethnicity,1.5
+65-69,male,2020-01-01,W.P. Labuan,overall_ethnicity,0.9
+70-74,male,2020-01-01,W.P. Labuan,overall_ethnicity,0.6
+75-79,male,2020-01-01,W.P. Labuan,overall_ethnicity,0.2
+80-84,male,2020-01-01,W.P. Labuan,overall_ethnicity,0.2
+85+,male,2020-01-01,W.P. Labuan,overall_ethnicity,0.2
+overall_age,female,2020-01-01,W.P. Labuan,overall_ethnicity,46.2
+0-4,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.6
+5-9,female,2020-01-01,W.P. Labuan,overall_ethnicity,3.8
+10-14,female,2020-01-01,W.P. Labuan,overall_ethnicity,3.6
+15-19,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.6
+20-24,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.4
+25-29,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.4
+30-34,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.3
+35-39,female,2020-01-01,W.P. Labuan,overall_ethnicity,4.4
+40-44,female,2020-01-01,W.P. Labuan,overall_ethnicity,2.5
+45-49,female,2020-01-01,W.P. Labuan,overall_ethnicity,2.5
+50-54,female,2020-01-01,W.P. Labuan,overall_ethnicity,2.2
+55-59,female,2020-01-01,W.P. Labuan,overall_ethnicity,1.8
+60-64,female,2020-01-01,W.P. Labuan,overall_ethnicity,1.3
+65-69,female,2020-01-01,W.P. Labuan,overall_ethnicity,0.9
+70-74,female,2020-01-01,W.P. Labuan,overall_ethnicity,0.4
+75-79,female,2020-01-01,W.P. Labuan,overall_ethnicity,0.3
+80-84,female,2020-01-01,W.P. Labuan,overall_ethnicity,0.2
+85+,female,2020-01-01,W.P. Labuan,overall_ethnicity,0.2
+overall_age,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,109.2
+0-4,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,12.9
+5-9,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,17.3
+10-14,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,11.3
+15-19,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,5.9
+20-24,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,4.2
+25-29,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,6.4
+30-34,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,11.4
+35-39,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,17.6
+40-44,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,9.4
+45-49,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,4.5
+50-54,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,3.0
+55-59,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.3
+60-64,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,1.4
+65-69,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.8
+70-74,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.4
+75-79,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.2
+80-84,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.1
+85+,overall_sex,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.1
+overall_age,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,53.6
+0-4,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,6.7
+5-9,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,8.9
+10-14,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,5.8
+15-19,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,3.1
+20-24,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.0
+25-29,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.8
+30-34,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,5.0
+35-39,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,8.1
+40-44,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,4.8
+45-49,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.3
+50-54,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,1.5
+55-59,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,1.2
+60-64,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.7
+65-69,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.4
+70-74,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.2
+75-79,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.1
+80-84,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.0
+85+,male,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.0
+overall_age,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,55.6
+0-4,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,6.2
+5-9,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,8.4
+10-14,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,5.5
+15-19,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.8
+20-24,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.1
+25-29,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,3.6
+30-34,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,6.4
+35-39,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,9.5
+40-44,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,4.6
+45-49,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,2.2
+50-54,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,1.5
+55-59,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,1.1
+60-64,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.8
+65-69,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.4
+70-74,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.3
+75-79,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.1
+80-84,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.1
+85+,female,2020-01-01,W.P. Putrajaya,overall_ethnicity,0.0
+overall_age,overall_sex,2020-01-01,Johor,bumi_malay,2158.4
+0-4,overall_sex,2020-01-01,Johor,bumi_malay,195.9
+5-9,overall_sex,2020-01-01,Johor,bumi_malay,197.4
+10-14,overall_sex,2020-01-01,Johor,bumi_malay,197.6
+15-19,overall_sex,2020-01-01,Johor,bumi_malay,199.2
+20-24,overall_sex,2020-01-01,Johor,bumi_malay,193.8
+25-29,overall_sex,2020-01-01,Johor,bumi_malay,173.8
+30-34,overall_sex,2020-01-01,Johor,bumi_malay,176.2
+35-39,overall_sex,2020-01-01,Johor,bumi_malay,167.4
+40-44,overall_sex,2020-01-01,Johor,bumi_malay,128.7
+45-49,overall_sex,2020-01-01,Johor,bumi_malay,116.3
+50-54,overall_sex,2020-01-01,Johor,bumi_malay,107.8
+55-59,overall_sex,2020-01-01,Johor,bumi_malay,98.4
+60-64,overall_sex,2020-01-01,Johor,bumi_malay,80.5
+65-69,overall_sex,2020-01-01,Johor,bumi_malay,50.1
+70-74,overall_sex,2020-01-01,Johor,bumi_malay,34.2
+75-79,overall_sex,2020-01-01,Johor,bumi_malay,19.1
+80-84,overall_sex,2020-01-01,Johor,bumi_malay,11.6
+85+,overall_sex,2020-01-01,Johor,bumi_malay,10.3
+overall_age,male,2020-01-01,Johor,bumi_malay,1096.4
+0-4,male,2020-01-01,Johor,bumi_malay,98.0
+5-9,male,2020-01-01,Johor,bumi_malay,101.6
+10-14,male,2020-01-01,Johor,bumi_malay,102.3
+15-19,male,2020-01-01,Johor,bumi_malay,102.3
+20-24,male,2020-01-01,Johor,bumi_malay,100.6
+25-29,male,2020-01-01,Johor,bumi_malay,88.9
+30-34,male,2020-01-01,Johor,bumi_malay,90.7
+35-39,male,2020-01-01,Johor,bumi_malay,84.2
+40-44,male,2020-01-01,Johor,bumi_malay,66.1
+45-49,male,2020-01-01,Johor,bumi_malay,58.2
+50-54,male,2020-01-01,Johor,bumi_malay,53.2
+55-59,male,2020-01-01,Johor,bumi_malay,49.6
+60-64,male,2020-01-01,Johor,bumi_malay,39.6
+65-69,male,2020-01-01,Johor,bumi_malay,24.7
+70-74,male,2020-01-01,Johor,bumi_malay,16.8
+75-79,male,2020-01-01,Johor,bumi_malay,9.0
+80-84,male,2020-01-01,Johor,bumi_malay,5.2
+85+,male,2020-01-01,Johor,bumi_malay,5.3
+overall_age,female,2020-01-01,Johor,bumi_malay,1062.0
+0-4,female,2020-01-01,Johor,bumi_malay,97.9
+5-9,female,2020-01-01,Johor,bumi_malay,95.7
+10-14,female,2020-01-01,Johor,bumi_malay,95.3
+15-19,female,2020-01-01,Johor,bumi_malay,96.8
+20-24,female,2020-01-01,Johor,bumi_malay,93.2
+25-29,female,2020-01-01,Johor,bumi_malay,84.9
+30-34,female,2020-01-01,Johor,bumi_malay,85.5
+35-39,female,2020-01-01,Johor,bumi_malay,83.2
+40-44,female,2020-01-01,Johor,bumi_malay,62.6
+45-49,female,2020-01-01,Johor,bumi_malay,58.1
+50-54,female,2020-01-01,Johor,bumi_malay,54.6
+55-59,female,2020-01-01,Johor,bumi_malay,48.8
+60-64,female,2020-01-01,Johor,bumi_malay,40.9
+65-69,female,2020-01-01,Johor,bumi_malay,25.4
+70-74,female,2020-01-01,Johor,bumi_malay,17.5
+75-79,female,2020-01-01,Johor,bumi_malay,10.1
+80-84,female,2020-01-01,Johor,bumi_malay,6.4
+85+,female,2020-01-01,Johor,bumi_malay,5.1
+overall_age,overall_sex,2020-01-01,Kedah,bumi_malay,1624.8
+0-4,overall_sex,2020-01-01,Kedah,bumi_malay,143.0
+5-9,overall_sex,2020-01-01,Kedah,bumi_malay,142.6
+10-14,overall_sex,2020-01-01,Kedah,bumi_malay,130.5
+15-19,overall_sex,2020-01-01,Kedah,bumi_malay,151.3
+20-24,overall_sex,2020-01-01,Kedah,bumi_malay,168.5
+25-29,overall_sex,2020-01-01,Kedah,bumi_malay,144.5
+30-34,overall_sex,2020-01-01,Kedah,bumi_malay,113.1
+35-39,overall_sex,2020-01-01,Kedah,bumi_malay,100.5
+40-44,overall_sex,2020-01-01,Kedah,bumi_malay,88.5
+45-49,overall_sex,2020-01-01,Kedah,bumi_malay,87.3
+50-54,overall_sex,2020-01-01,Kedah,bumi_malay,83.3
+55-59,overall_sex,2020-01-01,Kedah,bumi_malay,77.4
+60-64,overall_sex,2020-01-01,Kedah,bumi_malay,65.8
+65-69,overall_sex,2020-01-01,Kedah,bumi_malay,51.7
+70-74,overall_sex,2020-01-01,Kedah,bumi_malay,35.1
+75-79,overall_sex,2020-01-01,Kedah,bumi_malay,19.8
+80-84,overall_sex,2020-01-01,Kedah,bumi_malay,13.3
+85+,overall_sex,2020-01-01,Kedah,bumi_malay,8.8
+overall_age,male,2020-01-01,Kedah,bumi_malay,814.7
+0-4,male,2020-01-01,Kedah,bumi_malay,75.0
+5-9,male,2020-01-01,Kedah,bumi_malay,73.5
+10-14,male,2020-01-01,Kedah,bumi_malay,67.1
+15-19,male,2020-01-01,Kedah,bumi_malay,78.7
+20-24,male,2020-01-01,Kedah,bumi_malay,87.0
+25-29,male,2020-01-01,Kedah,bumi_malay,73.9
+30-34,male,2020-01-01,Kedah,bumi_malay,56.5
+35-39,male,2020-01-01,Kedah,bumi_malay,48.0
+40-44,male,2020-01-01,Kedah,bumi_malay,44.4
+45-49,male,2020-01-01,Kedah,bumi_malay,42.3
+50-54,male,2020-01-01,Kedah,bumi_malay,39.9

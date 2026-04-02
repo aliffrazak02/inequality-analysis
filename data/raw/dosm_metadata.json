@@ -1,0 +1,99 @@
+{
+  "hh_income_parlimen": {
+    "rows": 666,
+    "columns": [
+      "date",
+      "state",
+      "parlimen",
+      "income_mean",
+      "income_median"
+    ],
+    "years": [
+      "2019-01-01",
+      "2022-01-01",
+      "2024-01-01"
+    ],
+    "states": [
+      "Johor",
+      "Kedah",
+      "Kelantan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Perak",
+      "Perlis",
+      "Pulau Pinang",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Terengganu",
+      "W.P. Kuala Lumpur",
+      "W.P. Labuan",
+      "W.P. Putrajaya"
+    ]
+  },
+  "hh_poverty_parlimen": {
+    "rows": 666,
+    "columns": [
+      "date",
+      "state",
+      "parlimen",
+      "poverty_absolute"
+    ],
+    "years": [
+      "2019-01-01",
+      "2022-01-01",
+      "2024-01-01"
+    ],
+    "states": [
+      "Johor",
+      "Kedah",
+      "Kelantan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Perak",
+      "Perlis",
+      "Pulau Pinang",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Terengganu",
+      "W.P. Kuala Lumpur",
+      "W.P. Labuan",
+      "W.P. Putrajaya"
+    ]
+  },
+  "population_state": {
+    "rows": 1000,
+    "columns": [
+      "age",
+      "sex",
+      "date",
+      "state",
+      "ethnicity",
+      "population"
+    ],
+    "years": [
+      "2020-01-01"
+    ],
+    "states": [
+      "Johor",
+      "Kedah",
+      "Kelantan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Perak",
+      "Perlis",
+      "Pulau Pinang",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Terengganu",
+      "W.P. Kuala Lumpur",
+      "W.P. Labuan",
+      "W.P. Putrajaya"
+    ]
+  }
+}
