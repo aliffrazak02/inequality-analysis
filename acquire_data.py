@@ -2,25 +2,7 @@
 COSC 301 Project — Data Acquisition Script
 Malaysia State-Level Socioeconomic & Health Outcomes
 =====================================================
-Run this script FIRST to validate all data sources2
-before finalising your proposal.
-
-Requirements:
-    pip install requests pandas
-
-Usage:
-    python acquire_data.py
-
-Output:
-    data/raw/               <- untouched raw files (never modify these)
-        hh_income_parlimen.csv
-        hh_poverty_parlimen.csv
-        population_state.csv
-        dosm_metadata.json
-        moh_facilities.csv
-        moh_beds.csv
-    data/logs/
-        acquisition_log.txt <- pass/fail for each source
+Run this script to get data
 """
 
 import requests
@@ -84,11 +66,10 @@ def fetch_csv_url(url, save_path, retries=3, delay=2):
                 raise e
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # SOURCE 1 — OpenDOSM API  (api.data.gov.my)
 # License: Creative Commons Attribution (CC-BY)
 # Docs:    https://open.dosm.gov.my/api-docs
-# ══════════════════════════════════════════════════════════════════════════════
+
 BASE_DOSM = "https://api.data.gov.my/data-catalogue"
 
 DOSM_DATASETS = [
@@ -108,7 +89,8 @@ DOSM_DATASETS = [
         "id": "population_state",
         "desc": "Population by state (for per-capita normalisation)",
         "save_as": "population_state.csv",
-        "limit": 1000,
+        "limit": 10000,
+        "filter": "age@overall_age,sex@overall_sex,ethnicity@overall_ethnicity",
     },
 ]
 
@@ -122,6 +104,8 @@ for ds in DOSM_DATASETS:
     save_path = os.path.join(RAW_DIR, ds["save_as"])
     try:
         params = {"id": ds["id"], "limit": ds["limit"]}
+        if "filter" in ds:
+            params["filter"] = ds["filter"]
         data = fetch_json(BASE_DOSM, params=params)
 
         if not data:
@@ -160,13 +144,12 @@ with open(meta_path, "w") as f:
 log(f"Metadata saved: {meta_path}")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # SOURCE 2 — MoH Malaysia Open Data  (data.moh.gov.my)
 # License: Malaysian Open Data License (free for research)
 # Docs:    https://github.com/MoH-Malaysia
 # Note:    MoH publishes data directly on GitHub as CSVs — more reliable
 #          than scraping the portal. We pull from the official MoH GitHub.
-# ══════════════════════════════════════════════════════════════════════════════
+
 MOH_BASE = "https://raw.githubusercontent.com/MoH-Malaysia/data-resources-public/main"
 
 MOH_DATASETS = [
@@ -205,11 +188,9 @@ for ds in MOH_DATASETS:
         )
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # SOURCE 3 — World Bank API (backup / cross-validation)
 # For Malaysia (iso: MYS) health + macro indicators
 # License: CC-BY 4.0
-# ══════════════════════════════════════════════════════════════════════════════
 WB_BASE = "https://api.worldbank.org/v2/country/MYS/indicator"
 
 WB_INDICATORS = [
@@ -253,11 +234,9 @@ if wb_frames:
     wb_df.to_csv(wb_path, index=False)
     log(f"World Bank combined: {len(wb_df)} rows saved to {wb_path}")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VALIDATION SUMMARY
 # Checks state name consistency across sources (critical for joining)
-# ══════════════════════════════════════════════════════════════════════════════
+
 log("")
 log("VALIDATION — State name consistency check")
 log("-" * 50)
@@ -312,10 +291,8 @@ for name, path in SOURCE_FILES.items():
     except Exception as e:
         log(f"FAIL  {name} validation: {e}", "FAIL")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # FINAL SUMMARY
-# ══════════════════════════════════════════════════════════════════════════════
+
 log("")
 log("=" * 50)
 log("FILES IN data/raw/:")
