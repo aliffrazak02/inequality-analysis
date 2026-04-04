@@ -11,14 +11,17 @@ import json
 import os
 import time
 from datetime import datetime
+from pathlib import Path
 
 # ── Directory setup ──────────────────────────────────────────────────────────
-RAW_DIR = "data/raw"
-LOG_DIR = "data/logs"
-os.makedirs(RAW_DIR, exist_ok=True)
-os.makedirs(LOG_DIR, exist_ok=True)
+# Get project root (parent of scripts folder)
+PROJECT_ROOT = Path(__file__).parent.parent
+RAW_DIR = PROJECT_ROOT / "data" / "raw"
+LOG_DIR = PROJECT_ROOT / "data" / "logs"
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_PATH = os.path.join(LOG_DIR, "acquisition_log.txt")
+LOG_PATH = LOG_DIR / "acquisition_log.txt"
 log_lines = []
 
 
@@ -101,7 +104,7 @@ log("-" * 50)
 dosm_meta = {}
 
 for ds in DOSM_DATASETS:
-    save_path = os.path.join(RAW_DIR, ds["save_as"])
+    save_path = RAW_DIR / ds["save_as"]
     try:
         params = {"id": ds["id"], "limit": ds["limit"]}
         if "filter" in ds:
@@ -138,7 +141,7 @@ for ds in DOSM_DATASETS:
     except Exception as e:
         log(f"FAIL  {ds['id']}: {e}", "FAIL")
 
-meta_path = os.path.join(RAW_DIR, "dosm_metadata.json")
+meta_path = RAW_DIR / "dosm_metadata.json"
 with open(meta_path, "w") as f:
     json.dump(dosm_meta, f, indent=2)
 log(f"Metadata saved: {meta_path}")
@@ -170,7 +173,7 @@ log("SOURCE 2 — MoH Malaysia GitHub (github.com/MoH-Malaysia)")
 log("-" * 50)
 
 for ds in MOH_DATASETS:
-    save_path = os.path.join(RAW_DIR, ds["save_as"])
+    save_path = RAW_DIR / ds["save_as"]
     url = f"{MOH_BASE}/{ds['path']}"
     try:
         fetch_csv_url(url, save_path)
@@ -230,7 +233,7 @@ for indicator_code, col_name, desc in WB_INDICATORS:
 
 if wb_frames:
     wb_df = pd.concat(wb_frames, axis=1).reset_index().sort_values("year")
-    wb_path = os.path.join(RAW_DIR, "worldbank_malaysia.csv")
+    wb_path = RAW_DIR / "worldbank_malaysia.csv"
     wb_df.to_csv(wb_path, index=False)
     log(f"World Bank combined: {len(wb_df)} rows saved to {wb_path}")
 
@@ -262,10 +265,10 @@ OFFICIAL_STATES = [
 ]
 
 SOURCE_FILES = {
-    "hh_income_parlimen": os.path.join(RAW_DIR, "hh_income_parlimen.csv"),
-    "hh_poverty_parlimen": os.path.join(RAW_DIR, "hh_poverty_parlimen.csv"),
-    "moh_facilities": os.path.join(RAW_DIR, "moh_facilities.csv"),
-    "moh_beds": os.path.join(RAW_DIR, "moh_beds.csv"),
+    "hh_income_parlimen": RAW_DIR / "hh_income_parlimen.csv",
+    "hh_poverty_parlimen": RAW_DIR / "hh_poverty_parlimen.csv",
+    "moh_facilities": RAW_DIR / "moh_facilities.csv",
+    "moh_beds": RAW_DIR / "moh_beds.csv",
 }
 
 for name, path in SOURCE_FILES.items():
@@ -296,9 +299,9 @@ for name, path in SOURCE_FILES.items():
 log("")
 log("=" * 50)
 log("FILES IN data/raw/:")
-for f in sorted(os.listdir(RAW_DIR)):
-    fpath = os.path.join(RAW_DIR, f)
-    size_kb = os.path.getsize(fpath) / 1024
+for f in sorted(os.listdir(str(RAW_DIR))):
+    fpath = RAW_DIR / f
+    size_kb = fpath.stat().st_size / 1024
     log(f"  {f:<40} {size_kb:>7.1f} KB")
 
 log("")
