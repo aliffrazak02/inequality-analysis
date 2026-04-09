@@ -89,6 +89,8 @@ Open any notebook directly on GitHub or paste the URL into [nbviewer.org](https:
 - [02_etl.ipynb](notebook/02_etl.ipynb)
 - [03_eda.ipynb](notebook/03_eda.ipynb)
 - [04_sdi_analysis.ipynb](notebook/04_sdi_analysis.ipynb)
+- <a href="docs/final_report.html" target="_blank" rel="noopener noreferrer">Final report (HTML)</a>
+
 
 ### Run locally
 
