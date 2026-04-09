@@ -1,6 +1,19 @@
-# inequality-analysis
+# Poverty, Income Inequality, and Health Outcomes Across Malaysian States
 
 State-level inequality analysis for Malaysia, including ETL scripts, exploratory notebooks, and a shareable SQLite database.
+
+## Project Overview
+
+This project builds a reproducible data pipeline and analysis workflow to study inequality patterns across Malaysian states.
+
+The project includes:
+
+- Automated data acquisition from OpenDOSM, MoH Malaysia, and World Bank sources
+- ETL transformation into clean, analysis-ready tables
+- Exploratory and SDI-focused notebooks with charts and interpretation
+- Export targets for analytics tools: CSV, Excel workbook, and SQLite database
+
+Core outputs are designed to be easy to inspect, share, and reuse for dashboarding or further research.
 
 ## Access For Anyone
 
@@ -12,6 +25,13 @@ Open the notebook files directly on GitHub:
 - notebook/02_etl.ipynb
 - notebook/03_eda.ipynb
 - notebook/04_sdi_analysis.ipynb
+
+### 1b) One-click Open in Colab
+
+Use the badges below to open in Google Colab:
+
+- Browse this repository in Colab (notebook picker)  
+	[![Open Repo In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aliffrazak02/inequality-analysis)
 
 If GitHub rendering is slow, use nbviewer by pasting your notebook URL into:
 
@@ -69,5 +89,6 @@ Export query results to CSV:
 
 See more example queries in:
 
-- docs/sqlite_quickstart.sql
+- [docs/sqlite_quickstart.sql](docs/sqlite_quickstart.sql)
+
 
