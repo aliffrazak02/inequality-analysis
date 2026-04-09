@@ -13,8 +13,6 @@ Open the notebook files directly on GitHub:
 - notebook/03_eda.ipynb
 - notebook/04_sdi_analysis.ipynb
 
-GitHub renders notebook cells and outputs in the browser. To keep them easy to read for others, run all cells and commit saved outputs before pushing.
-
 If GitHub rendering is slow, use nbviewer by pasting your notebook URL into:
 
 - https://nbviewer.org/
