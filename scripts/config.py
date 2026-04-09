@@ -74,29 +74,10 @@ SDI_WEIGHTS = {
 DOSM_API = "https://api.data.gov.my/data-catalogue"
 DOSM_POPULATION_CSV = "https://storage.dosm.gov.my/population/population_state.csv"
 DOSM_INEQUALITY_CSV = "https://storage.dosm.gov.my/hies/hh_inequality_state.csv"
-DOSM_CPI_STATE_CSV = "https://storage.dosm.gov.my/cpi/cpi_state.csv"
+DOSM_CPI_ANNUAL_CSV = "https://storage.dosm.gov.my/cpi/cpi_2d_annual.csv"
 MOH_BASE = "https://raw.githubusercontent.com/MoH-Malaysia/data-resources-public/main"
 WB_BASE = "https://api.worldbank.org/v2/country/MYS/indicator"
 
-# CPI state CSV uses slugified column names — map to canonical state names
-CPI_STATE_COLS = {
-    "johor": "Johor",
-    "kedah": "Kedah",
-    "kelantan": "Kelantan",
-    "melaka": "Melaka",
-    "negeri_sembilan": "Negeri Sembilan",
-    "pahang": "Pahang",
-    "perak": "Perak",
-    "perlis": "Perlis",
-    "pulau_pinang": "Pulau Pinang",
-    "sabah": "Sabah",
-    "sarawak": "Sarawak",
-    "selangor": "Selangor",
-    "terengganu": "Terengganu",
-    "wp-kuala-lumpur": "W.P. Kuala Lumpur",
-    "wp-labuan": "W.P. Labuan",
-    "wp-putrajaya": "W.P. Putrajaya",
-}
 
 WB_INDICATORS = {
     "SP.DYN.LE00.IN": "life_expectancy",

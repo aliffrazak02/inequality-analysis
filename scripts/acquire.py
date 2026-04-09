@@ -17,7 +17,7 @@ import requests
 
 from scripts.config import (
     DOSM_API,
-    DOSM_CPI_STATE_CSV,
+    DOSM_CPI_ANNUAL_CSV,
     DOSM_INEQUALITY_CSV,
     DOSM_POPULATION_CSV,
     MOH_BASE,
@@ -113,14 +113,14 @@ def acquire_dosm(force: bool = False) -> None:
         df.to_csv(dest, index=False)
         print(f"  [ok]   hh_inequality_state.csv: {len(df)} rows")
 
-    # CPI by state: monthly index, wide format (one column per state)
-    dest = RAW / "cpi_state.csv"
+    # National CPI: annual index by division (2-digit MCOICOP), 1960–present
+    dest = RAW / "cpi_national.csv"
     if dest.exists() and not force:
-        print(f"  [skip] cpi_state.csv already exists")
+        print(f"  [skip] cpi_national.csv already exists")
     else:
-        df = fetch_csv(DOSM_CPI_STATE_CSV)
+        df = fetch_csv(DOSM_CPI_ANNUAL_CSV)
         df.to_csv(dest, index=False)
-        print(f"  [ok]   cpi_state.csv: {len(df)} rows")
+        print(f"  [ok]   cpi_national.csv: {len(df)} rows")
 
 
 def acquire_moh(force: bool = False) -> None:

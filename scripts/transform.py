@@ -16,7 +16,6 @@ import pandas as pd
 from scripts.config import (
     ANALYSIS_YEARS,
     CLEAN,
-    CPI_STATE_COLS,
     DB_PATH,
     FT_TYPES,
     OUT_XLSX,
@@ -363,40 +362,23 @@ def build_sdi(socio: pd.DataFrame, health: pd.DataFrame) -> pd.DataFrame:
 
 def build_cpi() -> pd.DataFrame:
     """
-    Build state × year annual CPI table from monthly cpi_state.csv.
+    Build national annual CPI table from cpi_national.csv (DOSM cpi_2d_annual).
 
-    Source file is wide-format: columns are date, category, then one column
-    per state (slugified names). Filters to 'overall' category and averages
-    monthly values to produce an annual index (base year 2010 = 100).
+    Source file has columns: date (YYYY-01-01), division (MCOICOP 2-digit or
+    'overall'), index (base year 2010 = 100). Filters to division == 'overall'
+    to get the headline national CPI for each year.
 
-    Returns long-format table: state_code, state, year, cpi_overall.
+    Returns table: year, cpi_overall — one row per year, 1960–present.
     """
-    cpi_raw = pd.read_csv(RAW / "cpi_state.csv")
+    cpi_raw = pd.read_csv(RAW / "cpi_national.csv")
 
-    cpi_overall = cpi_raw[cpi_raw["category"] == "overall"].copy()
+    cpi_overall = cpi_raw[cpi_raw["division"] == "overall"].copy()
     cpi_overall["year"] = pd.to_datetime(cpi_overall["date"]).dt.year
 
-    state_cols = [
-        c for c in cpi_overall.columns if c not in ("date", "category", "year")
-    ]
-    cpi_long = cpi_overall.melt(
-        id_vars=["year"],
-        value_vars=state_cols,
-        var_name="state_slug",
-        value_name="cpi_overall",
-    )
-
-    cpi_annual = (
-        cpi_long.groupby(["state_slug", "year"])["cpi_overall"].mean().reset_index()
-    )
-
-    cpi_annual["state"] = cpi_annual["state_slug"].map(CPI_STATE_COLS)
-    cpi_annual["state_code"] = cpi_annual["state"].map(STATE_CODES)
-
     return (
-        cpi_annual[["state_code", "state", "year", "cpi_overall"]]
-        .dropna(subset=["state"])
-        .sort_values(["state", "year"])
+        cpi_overall[["year", "index"]]
+        .rename(columns={"index": "cpi_overall"})
+        .sort_values("year")
         .reset_index(drop=True)
     )
 
@@ -417,9 +399,9 @@ def export_excel(
         sdi.to_excel(writer, sheet_name="sdi_scores", index=False)
         combined.to_excel(writer, sheet_name="combined_state", index=False)
         health.to_excel(writer, sheet_name="health_state", index=False)
-        cpi.to_excel(writer, sheet_name="cpi_state", index=False)
+        cpi.to_excel(writer, sheet_name="cpi_national", index=False)
     print(
-        f"✓ {OUT_XLSX.name}: 4 sheets (sdi_scores, combined_state, health_state, cpi_state)"
+        f"[ok] {OUT_XLSX.name}: 4 sheets (sdi_scores, combined_state, health_state, cpi_national)"
     )
 
 
@@ -454,10 +436,10 @@ def run() -> None:
     cpi = build_cpi()
     print(f"  cpi: {cpi.shape}, years {cpi.year.min()}–{cpi.year.max()}")
 
-    # Attach annual CPI to combined where available
+    # Attach national annual CPI to combined (same deflator for all states per year)
     combined = combined.merge(
-        cpi[["state_code", "year", "cpi_overall"]],
-        on=["state_code", "year"],
+        cpi[["year", "cpi_overall"]],
+        on="year",
         how="left",
     )
 
@@ -467,24 +449,24 @@ def run() -> None:
 
     print("\n--- Saving outputs ---")
     combined.to_csv(CLEAN / "combined_state.csv", index=False)
-    print(f"  ✓ combined_state.csv")
+    print("  [ok] combined_state.csv")
 
     health.to_csv(CLEAN / "health_state.csv", index=False)
-    print(f"  ✓ health_state.csv")
+    print("  [ok] health_state.csv")
 
     sdi.to_csv(CLEAN / "sdi_scores.csv", index=False)
-    print(f"  ✓ sdi_scores.csv")
+    print("  [ok] sdi_scores.csv")
 
-    cpi.to_csv(CLEAN / "cpi_state.csv", index=False)
-    print(f"  ✓ cpi_state.csv")
+    cpi.to_csv(CLEAN / "cpi_national.csv", index=False)
+    print("  [ok] cpi_national.csv")
 
     with sqlite3.connect(DB_PATH) as con:
         combined.to_sql("combined_state", con, if_exists="replace", index=False)
         health.to_sql("health_state", con, if_exists="replace", index=False)
         sdi.to_sql("sdi_scores", con, if_exists="replace", index=False)
-        cpi.to_sql("cpi_state", con, if_exists="replace", index=False)
+        cpi.to_sql("cpi_national", con, if_exists="replace", index=False)
     print(
-        f"  ✓ {DB_PATH.name} (tables: combined_state, health_state, sdi_scores, cpi_state)"
+        f"  [ok] {DB_PATH.name} (tables: combined_state, health_state, sdi_scores, cpi_national)"
     )
 
     export_excel(combined, health, sdi, cpi)

@@ -26,11 +26,11 @@ from scripts.config import FIGURES
 # ---------------------------------------------------------------------------
 
 COLOR_MAP: dict[str, str] = {
-    "west":     "#4c72b0",   # Peninsular Malaysia (blue)
-    "east":     "#e07b39",   # East Malaysia (orange)
-    "capital":  "#2ca02c",   # W.P. Kuala Lumpur (green)
-    "deprived": "#d62728",   # Double-deprived states (red)
-    "grey":     "#cccccc",   # Background / faded lines
+    "west": "#4c72b0",  # Peninsular Malaysia (blue)
+    "east": "#e07b39",  # East Malaysia (orange)
+    "capital": "#2ca02c",  # W.P. Kuala Lumpur (green)
+    "deprived": "#d62728",  # Double-deprived states (red)
+    "grey": "#cccccc",  # Background / faded lines
 }
 
 EAST: set[str] = {"Sabah", "Sarawak", "W.P. Labuan"}
@@ -42,6 +42,7 @@ HIGHLIGHT_COLORS = ["#2ca02c", "#4c72b0", "#c44e52", "#8172b3", "#64b5cd"]
 # ---------------------------------------------------------------------------
 # Colour helpers
 # ---------------------------------------------------------------------------
+
 
 def state_colors(states: list[str] | "pd.Series") -> list[str]:
     """Return a colour per state name using the project palette.
@@ -81,21 +82,25 @@ def sdi_colors(df: "pd.DataFrame") -> list[str]:
 # Legend helpers
 # ---------------------------------------------------------------------------
 
+
 def legend_patches(include_deprived: bool = False) -> list[Patch]:
     """Standard region legend handles."""
     handles = [
-        Patch(color=COLOR_MAP["west"],    label="Peninsular Malaysia"),
-        Patch(color=COLOR_MAP["east"],    label="East Malaysia"),
+        Patch(color=COLOR_MAP["west"], label="Peninsular Malaysia"),
+        Patch(color=COLOR_MAP["east"], label="East Malaysia"),
         Patch(color=COLOR_MAP["capital"], label="W.P. Kuala Lumpur *"),
     ]
     if include_deprived:
-        handles.insert(0, Patch(color=COLOR_MAP["deprived"], label="Double deprived (★)"))
+        handles.insert(
+            0, Patch(color=COLOR_MAP["deprived"], label="Double deprived (*)")
+        )
     return handles
 
 
 # ---------------------------------------------------------------------------
 # Figure I/O
 # ---------------------------------------------------------------------------
+
 
 def save_fig(fig: "plt.Figure", name: str, tight: bool = True) -> None:
     """Save *fig* to the project figures/ directory as a PNG.
@@ -116,6 +121,7 @@ def save_fig(fig: "plt.Figure", name: str, tight: bool = True) -> None:
 # ---------------------------------------------------------------------------
 # Axis formatting
 # ---------------------------------------------------------------------------
+
 
 def style_ax(
     ax: "plt.Axes",
@@ -144,15 +150,9 @@ def style_ax(
         ax.set_ylabel(ylabel)
 
     if rm_format == "x":
-        ax.xaxis.set_major_formatter(
-            mticker.FuncFormatter(lambda x, _: f"RM {x:,.0f}")
-        )
+        ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"RM {x:,.0f}"))
     elif rm_format == "y":
-        ax.yaxis.set_major_formatter(
-            mticker.FuncFormatter(lambda x, _: f"RM {x:,.0f}")
-        )
+        ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"RM {x:,.0f}"))
 
     if pct_format:
-        ax.xaxis.set_major_formatter(
-            mticker.FuncFormatter(lambda x, _: f"{x:.1f}%")
-        )
+        ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:.1f}%"))

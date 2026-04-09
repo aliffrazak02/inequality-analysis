@@ -1,94 +1,135 @@
-# Poverty, Income Inequality, and Health Outcomes Across Malaysian States Analysis
+# Poverty, Income Inequality, and Health Outcomes Across Malaysian States
 
-State-level inequality analysis for Malaysia, including ETL scripts, exploratory notebooks, and a SQLite database.
+A reproducible data pipeline and analysis workflow studying inequality patterns across all 16 Malaysian states and federal territories.
 
-## Project Overview
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aliffrazak02/inequality-analysis)
 
-This project builds a reproducible data pipeline and analysis workflow to study inequality patterns across Malaysian states.
+---
 
-The project includes:
+## What This Project Does
 
-- Automated data acquisition from OpenDOSM, MoH Malaysia, and World Bank sources
-- ETL transformation into clean, analysis-ready tables
-- Exploratory and SDI-focused notebooks with charts and interpretation
-- Export targets for analytics tools: CSV, Excel workbook, and SQLite database
+This project combines income, poverty, and health data from official Malaysian and international sources to:
 
-Core outputs are designed to be easy to inspect, share, and reuse for dashboarding or further research.
+- Profile inequality across all 16 states and federal territories
+- Build a composite **Social Deprivation Index (SDI)** that ranks states by combined socioeconomic disadvantage
+- Identify states with co-occurring income poverty and poor health access ("double deprivation")
+- Track how income trends have shifted from 2019 to 2024
 
+The final outputs - final report notebook, interactive tableau dashboard and video presentation
 
-## Access For Anyone
+---
 
-### 1) View notebooks in-browser (no setup)
+## Data Sources
 
-Open the notebook files directly on GitHub:
+| Source | Data |
+|---|---|
+| [OpenDOSM](https://open.dosm.gov.my/) | Household income, poverty rates, Gini coefficients, CPI by state |
+| [MoH Malaysia](https://github.com/MoH-Malaysia/data-resources-public) | Hospital beds and health facilities by state |
+| [World Bank](https://data.worldbank.org/) | Life expectancy, infant mortality, health expenditure (national) |
 
-- `notebook/01_acquire_data.ipynb`
-- `notebook/02_etl.ipynb`
-- `notebook/03_eda.ipynb`
-- `notebook/04_sdi_analysis.ipynb`
+---
 
-### 1b) One-click Open in Colab
+## Project Structure
 
-Use the badge to open in Google Colab:
+```
+inequality-analysis/
+├── notebook/
+│   ├── 01_acquire_data.ipynb   # Download raw data from APIs
+│   ├── 02_etl.ipynb            # Clean, normalise, and load into SQLite
+│   ├── 03_eda.ipynb            # Exploratory analysis and charts
+│   └── 04_sdi_analysis.ipynb   # SDI construction and sensitivity checks
+├── scripts/
+│   ├── acquire.py              # Data acquisition logic
+│   ├── transform.py            # ETL transformations
+│   ├── visualise.py            # Chart generation
+│   ├── run_pipeline.py         # End-to-end pipeline runner
+│   └── query_db.py             # CLI helper for querying the SQLite database
+├── data/
+│   ├── raw/                    # Downloaded source files (git-ignored)
+│   └── clean/                  # Analysis-ready outputs
+├── figures/                    # All generated charts (PNG)
+├── docs/                       # Project documentation
+└── malaysia_project.db         # SQLite database (all clean tables)
+```
 
-- [![Open Repo In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aliffrazak02/inequality-analysis) 
+---
 
-If GitHub rendering is slow, use nbviewer by pasting your notebook URL into:
+## Key Outputs
 
-- https://nbviewer.org/
+| File | Description |
+|---|---|
+| `data/clean/combined_state.csv` | Income, poverty, and Gini by state and year |
+| `data/clean/health_state.csv` | Hospital beds and facilities by state |
+| `data/clean/sdi_scores.csv` | SDI rankings for all 16 states |
+| `data/clean/cpi_state.csv` | CPI inflation data by state |
+| `data/clean/dashboard_data.xlsx` | All tables in a single Excel workbook |
+| `malaysia_project.db` | SQLite database with all clean tables |
 
-### 2) Run locally with one command
+### SDI Weights
 
-Requirements:
+The Social Deprivation Index is computed from five indicators using the following weights:
 
-- Python 3.14+
-- uv (recommended) or pip
+| Indicator | Weight |
+|---|---|
+| Poverty rate | 25% |
+| Income (inverse) | 25% |
+| Gini coefficient | 20% |
+| Hospital beds per capita | 15% |
+| Health facilities per capita | 15% |
 
-Install dependencies:
+---
 
-- `uv sync`
+## Quickstart
 
-Run full pipeline (download raw data, transform, export):
+### View notebooks in-browser (no setup)
 
-- `uv run python -m scripts.run_pipeline`
+Open any notebook directly on GitHub or paste the URL into [nbviewer.org](https://nbviewer.org/):
 
-Outputs:
+- [01_acquire_data.ipynb](notebook/01_acquire_data.ipynb)
+- [02_etl.ipynb](notebook/02_etl.ipynb)
+- [03_eda.ipynb](notebook/03_eda.ipynb)
+- [04_sdi_analysis.ipynb](notebook/04_sdi_analysis.ipynb)
 
-- `data/clean/combined_state.csv`
-- `data/clean/health_state.csv`
-- `data/clean/sdi_scores.csv`
-- `data/clean/cpi_state.csv`
-- `data/clean/dashboard_data.xlsx`
-- `malaysia_project.db`
+### Run locally
 
-## SQLite Database Access
+**Requirements:** Python 3.14+, [uv](https://docs.astral.sh/uv/)
 
-Anyone can use the database with any SQLite-compatible tool:
+```bash
+git clone https://github.com/aliffrazak02/inequality-analysis.git
+cd inequality-analysis
+uv sync
+uv run python -m scripts.run_pipeline
+```
 
-- DB Browser for SQLite (GUI)
-- DBeaver (GUI)
-- Python sqlite3
-- sqlite3 CLI
+This will download raw data, run all ETL transforms, generate figures, and write all output files.
 
-Main tables:
+---
 
-- combined_state
-- health_state
-- sdi_scores
-- cpi_state
+## SQLite Database
 
-### Quick query via Python helper
+Open `malaysia_project.db` with any SQLite-compatible tool:
 
-Run a query and print results in terminal:
+- [DB Browser for SQLite](https://sqlitebrowser.org/) (GUI)
+- [DBeaver](https://dbeaver.io/) (GUI)
+- Python `sqlite3` / pandas
+- `sqlite3` CLI
 
-- `uv run python -m scripts.query_db "SELECT * FROM sdi_scores ORDER BY sdi_rank LIMIT 10"`
+**Tables:** `combined_state`, `health_state`, `sdi_scores`, `cpi_state`
 
-Export query results to CSV:
+### Query from the command line
 
-- `uv run python -m scripts.query_db "SELECT state, sdi_score FROM sdi_scores ORDER BY sdi_rank" --out data/clean/top_sdi.csv`
+Print results to terminal:
 
-See more example queries in:
+```bash
+uv run python -m scripts.query_db "SELECT * FROM sdi_scores ORDER BY sdi_rank LIMIT 10"
+```
 
-- [docs/sqlite_quickstart.sql](docs/sqlite_quickstart.sql)
+Export to CSV:
 
+```bash
+uv run python -m scripts.query_db \
+  "SELECT state, sdi_score FROM sdi_scores ORDER BY sdi_rank" \
+  --out data/clean/top_sdi.csv
+```
 
+---
