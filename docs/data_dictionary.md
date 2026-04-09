@@ -195,6 +195,16 @@ This is the main longitudinal socioeconomic table. It combines historical DOSM s
 | `sdi_score_eq` | float | Equal-weight SDI score |
 | `sdi_rank_eq` | integer | Rank by equal-weight SDI score |
 
+### [cpi_national.csv](../data/clean/cpi_national.csv)
+**Grain:** year (national level)
+
+Annual national CPI table built from OpenDOSM's national CPI series. Used in `combined_state.csv` to deflate income and as context for the long-run trend analysis.
+
+| Column | Type | Description |
+|---|---|---|
+| `year` | integer | Annual CPI year |
+| `cpi_overall` | float | Annual average overall national CPI |
+
 ### [cpi_state.csv](../data/clean/cpi_state.csv)
 **Grain:** state x year
 

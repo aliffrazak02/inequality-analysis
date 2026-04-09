@@ -99,7 +99,18 @@ Because the MOH source files have no year dimension, the same infrastructure cou
 
 ## CPI Table Construction
 
-The state CPI series is built from `cpi_state.csv`.
+Two CPI clean tables are produced from OpenDOSM source files:
+
+**National CPI (`cpi_national.csv`)** — built from `cpi_national.csv` (raw):
+
+| Source pattern | Transformation |
+|---|---|
+| Annual national CPI series | Filter to the `overall` category |
+| Long-run annual observations | Extract year, retain `cpi_overall` |
+
+This is the primary CPI series used to compute real income in `combined_state.csv` and for the long-run trend analysis.
+
+**State CPI (`cpi_state.csv`)** — built from `cpi_state.csv` (raw):
 
 | Source pattern | Transformation |
 |---|---|
@@ -107,7 +118,7 @@ The state CPI series is built from `cpi_state.csv`.
 | Wide state columns | Melt to long format |
 | Monthly observations | Average to annual `cpi_overall` values |
 
-The resulting `cpi_state.csv` is a short recent series and is used mainly as context for the combined economic panel.
+The state CPI series is short (recent years only) and is used as supplementary context for regional price differences.
 
 ---
 
