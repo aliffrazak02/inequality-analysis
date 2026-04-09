@@ -1,13 +1,17 @@
 [project]
 name = "inequality-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reproducible pipeline analysing income inequality, poverty, and health outcomes across Malaysian states using OpenDOSM, MoH, and World Bank data"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "db-dtypes>=1.3.1",
+    "google-cloud-bigquery>=3.31.0",
     "matplotlib>=3.10.8",
     "openpyxl>=3.1.5",
     "pandas>=3.0.2",
+    "pandas-gbq>=0.34.1",
+    "python-dotenv>=1.1.0",
     "requests>=2.33.1",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
