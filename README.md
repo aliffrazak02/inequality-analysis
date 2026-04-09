@@ -71,14 +71,3 @@ See more example queries in:
 
 - docs/sqlite_quickstart.sql
 
-## Reproducibility Checklist
-
-Before sharing publicly:
-
-1. Run the pipeline and ensure outputs are up to date.
-2. Run notebook cells top-to-bottom.
-3. Save notebook outputs.
-4. Commit notebooks and malaysia_project.db.
-5. Push to GitHub.
-
-This ensures viewers can open notebooks immediately and query the same SQLite snapshot.
