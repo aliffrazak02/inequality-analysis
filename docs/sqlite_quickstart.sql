@@ -8,17 +8,15 @@ WHERE type = 'table'
 ORDER BY name;
 
 -- 2) Preview SDI ranking
-SELECT state, sdi_score, sdi_rank, double_deprivation
+SELECT TOP 16 state, sdi_score, sdi_rank, double_deprivation
 FROM sdi_scores
-ORDER BY sdi_rank
-LIMIT 16;
+ORDER BY sdi_rank;
 
 -- 3) States with highest poverty in 2024
-SELECT state, poverty_absolute
+SELECT TOP 10 [state], poverty_absolute
 FROM combined_state
 WHERE year = 2024
-ORDER BY poverty_absolute DESC
-LIMIT 10;
+ORDER BY poverty_absolute DESC;
 
 -- 4) Health infrastructure ranking by beds per 1000 in 2024
 SELECT state, beds_per_1000, facilities_per_100k
