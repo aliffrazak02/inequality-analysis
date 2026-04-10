@@ -15,7 +15,7 @@ This project combines income, poverty, and health data from official Malaysian a
 - Identify states with co-occurring income poverty and poor health access ("double deprivation")
 - Track how income trends have shifted from 2019 to 2024
 
-The final outputs - final report notebook, interactive tableau dashboard and video presentation
+The final outputs - final report, interactive tableau dashboard and video presentation
 
 ---
 
