@@ -82,6 +82,46 @@
 			border: 0;
 		}
 
+		.explanation {
+			margin-top: 28px;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+			gap: 16px;
+		}
+
+		.explanation-card {
+			background: var(--panel);
+			border: 1px solid var(--border);
+			border-radius: 12px;
+			padding: 18px 20px;
+			box-shadow: 0 4px 12px rgba(20, 44, 58, 0.07);
+		}
+
+		.explanation-card h3 {
+			margin: 0 0 8px;
+			font-size: 0.95rem;
+			font-weight: 600;
+			color: var(--text);
+		}
+
+		.explanation-card p {
+			margin: 0;
+			font-size: 0.875rem;
+			color: var(--muted);
+			line-height: 1.6;
+		}
+
+.data-note {
+			margin-top: 14px;
+			padding: 12px 16px;
+			background: var(--bg-2);
+			border-left: 3px solid #5a8fa8;
+			border-radius: 0 8px 8px 0;
+			font-size: 0.83rem;
+			color: var(--muted);
+			line-height: 1.6;
+		}
+
 		@media (max-width: 640px) {
 			body {
 				padding: 12px;
@@ -100,7 +140,7 @@
 		</header>
 
 		<section class="viz-shell" aria-label="Embedded Tableau dashboard">
-			<div class="tableauPlaceholder" id="viz1775789724589">
+			<div class="tableauPlaceholder" id="viz1775790611178">
 				<noscript>
 					<a href="#">
 						<img
@@ -129,10 +169,33 @@
 				</object>
 			</div>
 		</section>
+
+		<div class="explanation">
+			<div class="explanation-card">
+				<h3>State Deprivation Index (SDI) Map</h3>
+				<p>The choropleth map colours each Malaysian state by its SDI score. Darker shades indicate higher deprivation, meaning greater poverty, lower income, and worse health outcomes relative to other states. Hover over a state to see its exact score.</p>
+			</div>
+			<div class="explanation-card">
+				<h3>Income Inequality (Gini Coefficient)</h3>
+				<p>The Gini coefficient measures how unevenly income is distributed within a state, ranging from 0 (perfect equality) to 1 (maximum inequality). States with a higher Gini tend to have a wider gap between their wealthiest and poorest households.</p>
+			</div>
+			<div class="explanation-card">
+				<h3>Health Outcome Indicators</h3>
+				<p>Charts track key health metrics such as infant mortality rate and life expectancy alongside poverty levels. A strong correlation between high deprivation scores and poorer health outcomes highlights where policy intervention is most needed.</p>
+			</div>
+			<div class="explanation-card">
+				<h3>How to Use This Dashboard</h3>
+				<p>Use the filters in the toolbar to switch between states or years. Click on any bar or map region to cross-filter all other charts. Use the tabs at the top of the dashboard to explore different views of the data.</p>
+			</div>
+		</div>
+
+		<p class="data-note">
+			<strong>Data sources:</strong> Department of Statistics Malaysia (DOSM), Ministry of Health Malaysia. SDI is a composite index derived from poverty rate, mean household income, and selected health indicators at the state level.
+		</p>
 	</main>
 
 	<script>
-		var divElement = document.getElementById("viz1775789724589");
+		var divElement = document.getElementById("viz1775790611178");
 		var vizElement = divElement.getElementsByTagName("object")[0];
 		if (divElement.offsetWidth > 800) {
 			vizElement.style.width = "100%";
