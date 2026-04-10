@@ -154,7 +154,7 @@ Cleaned tables are stored in the `inequality_analysis` BigQuery dataset for clou
 
 An interactive Tableau dashboard is connected to the BigQuery dataset above, visualising income, poverty, health infrastructure, and the Social Deprivation Index across all 16 Malaysian states.
 
-> **Dashboard link:** [COSC301 Final Project Dashboard](https://prod-ca-a.online.tableau.com/t/aliffmlg-47fd6bc567/views/COSC301-Final-Project-Dashboard_17757724665440/IncomePoverty)
+> **Dashboard link:** [COSC301 Final Project Dashboard](https://public.tableau.com/views/COSC301-Final-Project-Dashboard/SDIOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ---
