@@ -1,1 +1,153 @@
-<div class='tableauPlaceholder' id='viz1775788915942' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COSC301-Final-Project-Dashboard&#47;SDIOverview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='COSC301-Final-Project-Dashboard&#47;SDIOverview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COSC301-Final-Project-Dashboard&#47;SDIOverview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1775788915942');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Interactive dashboard for inequality and SDI analysis.">
+	<title>Inequality Analysis Dashboard</title>
+	<style>
+		:root {
+			--bg-1: #eef4f7;
+			--bg-2: #dce8ee;
+			--panel: #ffffff;
+			--text: #1b2a33;
+			--muted: #52626c;
+			--border: #d2dde3;
+			--shadow: 0 18px 40px rgba(20, 44, 58, 0.14);
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			color: var(--text);
+			background:
+				radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.88), transparent 38%),
+				radial-gradient(circle at 90% 90%, rgba(255, 255, 255, 0.58), transparent 42%),
+				linear-gradient(140deg, var(--bg-1), var(--bg-2));
+			padding: 24px;
+		}
+
+		.page {
+			max-width: 1120px;
+			margin: 0 auto;
+		}
+
+		.header {
+			margin-bottom: 16px;
+		}
+
+		.title {
+			margin: 0 0 6px;
+			font-size: clamp(1.35rem, 2vw, 2rem);
+			line-height: 1.2;
+			letter-spacing: 0.01em;
+		}
+
+		.subtitle {
+			margin: 0;
+			color: var(--muted);
+			font-size: 0.98rem;
+		}
+
+		.viz-shell {
+			background: var(--panel);
+			border: 1px solid var(--border);
+			border-radius: 16px;
+			box-shadow: var(--shadow);
+			padding: clamp(10px, 2vw, 18px);
+			overflow: hidden;
+		}
+
+		.tableauPlaceholder {
+			position: relative;
+			width: 100%;
+			min-height: 480px;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.tableauViz {
+			display: none;
+		}
+
+		.noscript-image {
+			display: block;
+			width: 100%;
+			height: auto;
+			border: 0;
+		}
+
+		@media (max-width: 640px) {
+			body {
+				padding: 12px;
+			}
+
+			.tableauPlaceholder {
+				min-height: 560px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="page">
+		<header class="header">
+			<h1 class="title">Poverty, Income Inequality, and Health Outcomes Across Malaysian States</h1>
+		</header>
+
+		<section class="viz-shell" aria-label="Embedded Tableau dashboard">
+			<div class="tableauPlaceholder" id="viz1775789724589">
+				<noscript>
+					<a href="#">
+						<img
+							class="noscript-image"
+							alt="State Deprivation Index (SDI)"
+							src="https://public.tableau.com/static/images/CO/COSC301-Final-Project-Dashboard/SDIOverview/1_rss.png"
+						>
+					</a>
+				</noscript>
+
+				<object class="tableauViz" aria-label="Tableau visualization">
+					<param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
+					<param name="embed_code_version" value="3">
+					<param name="site_root" value="">
+					<param name="name" value="COSC301-Final-Project-Dashboard/SDIOverview">
+					<param name="tabs" value="no">
+					<param name="toolbar" value="yes">
+					<param name="static_image" value="https://public.tableau.com/static/images/CO/COSC301-Final-Project-Dashboard/SDIOverview/1.png">
+					<param name="animate_transition" value="yes">
+					<param name="display_static_image" value="yes">
+					<param name="display_spinner" value="yes">
+					<param name="display_overlay" value="yes">
+					<param name="display_count" value="yes">
+					<param name="language" value="en-US">
+					<param name="filter" value="publish=yes">
+				</object>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		var divElement = document.getElementById("viz1775789724589");
+		var vizElement = divElement.getElementsByTagName("object")[0];
+		if (divElement.offsetWidth > 800) {
+			vizElement.style.width = "100%";
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
+		} else if (divElement.offsetWidth > 500) {
+			vizElement.style.width = "100%";
+			vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
+		} else {
+			vizElement.style.width = "100%";
+			vizElement.style.height = "1427px";
+		}
+		var scriptElement = document.createElement("script");
+		scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);
+	</script>
+</body>
+</html>
+
