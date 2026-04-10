@@ -156,7 +156,7 @@ An interactive Tableau dashboard is connected to the BigQuery dataset above, vis
 
 > **Dashboard link:** [COSC301 Final Project Dashboard](https://prod-ca-a.online.tableau.com/t/aliffmlg-47fd6bc567/views/COSC301-Final-Project-Dashboard_17757724665440/IncomePoverty)
 
-<script type='module' src='https://prod-ca-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-ca-a.online.tableau.com/t/aliffmlg-47fd6bc567/views/COSC301-Final-Project-Dashboard_17757724665440/SDIOverview' width='1000' height='840' hide-tabs toolbar='bottom' ></tableau-viz>
+
 ---
 
 ## SQLite Database
